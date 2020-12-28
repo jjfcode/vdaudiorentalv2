@@ -126,7 +126,9 @@
     }
 }
 
-@media (max-width: 375px) {
+/* Iphone promax 11 size 458px */
+
+@media (max-width: 458px) {
     .maps-container {
         padding: 0px 30px;
     }
