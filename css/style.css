@@ -352,7 +352,9 @@ body, html {
     }
 }
 
-@media only screen and (max-width: 375px) {
+/* Iphone promax 11 size 458px */
+
+@media only screen and (max-width: 458px) {
     .newsletter .btn {
         right: 25px;
         padding: 10px 13px;
