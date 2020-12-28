@@ -1,0 +1,371 @@
+/* VD Color:    #225D38 */
+/* VD Font      Roboto Slab // Bold */
+
+/* Bold 700
+font-family: 'Roboto Slab', serif; */
+
+body, html {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0px;
+}
+
+.image-container img {
+    width: 100%;
+    max-height: 100%;
+}
+
+.content {
+    padding: 18px 24px;
+    text-align: left;
+}
+
+.content p {
+    margin-top: 10px;
+    letter-spacing: 0.08em;
+    line-height: 1.6em;
+}
+
+/* Navegation Start */
+.navigation-bar-container {
+    position: sticky;
+    height: 70px;
+    background: #fff;
+    z-index: #999;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.logo-container {
+    position: absolute;
+    padding-left: 20px;
+    float: left;
+}
+
+.logo-container a img {
+    display: block;
+    padding: 5px;
+    width: 60%;
+    cursor: pointer;
+}
+
+.logo-container a, .logo-container a:visited {
+    color: #225D38;
+}
+
+.nav-container {
+    max-width: 1000px;
+    margin: 0px auto;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    z-index: 9999;
+}
+
+.navbar ul li {
+    float: left;
+    position: relative;
+}
+
+.navbar ul li a, .navbar ul li a:visited {
+    display: block;
+    padding: 0px 20px;
+    line-height: 70px;
+    background: #fff;
+    color: #225D38;
+    text-decoration: none;
+    border-right: 1px solid #f4f4f4;
+}
+
+.navbar ul li a:hover, .navbar ul li a:visited:hover {
+    background: #f4f4f4;
+    color: #225D38;
+}
+
+.navbar ul li ul li {
+    min-width: 190px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.navbar ul li ul li a {
+    padding: 15px;
+    line-height: 20px;
+}
+
+.nav-dropdown {
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
+    display: none;
+}
+
+.nav-mobile {
+    position: absolute;
+    float: right;
+    top: 0px;
+    right: 0px;
+    background: #fff;
+    height: 70px;
+    width: 70px;
+    display: none;
+}
+
+#nav-toggle {
+    position: absolute;
+    left: 10px;
+    top: 22px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+}
+
+#nav-toggle span,
+#nav-toggle span:after,
+#nav-toggle span:before {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 5px;
+    width: 35px;
+    background: #225D38;
+    position: absolute;
+    display: block;
+    content: '';
+    transition: all 300ms ease-in-out;
+}
+
+#nav-toggle span::after {
+    bottom: -10px;
+}
+
+#nav-toggle span::before {
+    top: -10px;
+}
+
+#nav-toggle.active span {
+    background: transparent;
+}
+
+#nav-toggle.active span::after, #nav-toggle.active span::before {
+    top: 0px;
+}
+
+#nav-toggle.active span::after {
+    transform: rotate(-45deg);
+}
+
+#nav-toggle.active span::before {
+    transform: rotate(45deg);
+}
+/* Navegation End */
+
+/* Social Media Start */
+.social-icons {
+    margin: 0 10px;
+    padding: 0 0;
+    position: fixed;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    top: 40%;
+    z-index: 1;
+}
+
+.social-icons ul {
+    width: 100px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.social-icons li {
+    list-style-type: none;
+    padding: 5px;
+    transition: .6s;
+    position: relative;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #f4f4f4;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.social-icons li i {
+    font-size: 25px;
+    color: #fff;
+}
+
+.social-icons li:hover {
+    background-color: #f4f4f4;
+}
+
+.social-icons li.facebook {
+    background: #3b5998;
+}
+
+.social-icons li.instagram {
+    background: linear-gradient(350deg,
+        rgba(255, 255, 255, 0) 0,
+        rgba(244, 48, 109, 0) 36%,
+        #f4306d 48%,
+        #d53592 63%,
+        #4258f5 100%),
+    radial-gradient(circle farthest-corner at 28% 142%,
+        rgba(255 , 104, 177, 0.1) 0,
+        #ffffff 9%,
+        #fbe18a 32%,
+        #fbbb45 37%,
+        #f88330 43%,
+        #F86737 52%,
+        #f8443e 57%,
+        #f4306d 70%,
+        #d53592 85%,
+        #4258f5 100%);
+}
+
+.social-icons li.linkedin {
+    background: #007bb5;
+}
+/* social Media End */
+
+/* Subscribe Start */
+.wrapper {
+    background: rgb(253, 184, 172);
+    padding-bottom: 30px;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.wrapper h1 {
+    margin-bottom: 40px;
+    font-size: 42px;
+    color: #225D38;
+}
+
+.wrapper p {
+    margin-bottom: 40px;
+    color:  #225D38;
+    font-size: 20px;
+}
+
+.newsletter {
+    max-width: 550px;
+    width: 100%;
+    position: relative;
+}
+
+.newsletter .input {
+    width: 76%;
+    padding: 30px 63px 30px 60px;
+    border-radius: 5px;
+    border: none;
+    font-size: bold;
+}
+
+.newsletter .far {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    font-size: 20px;
+}
+
+.newsletter .btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+    background: #225D38;
+    padding: 15px 20px;
+    border-radius: 25px;
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+/* subscribe End */
+
+/* copyright start */
+.copyright-container {
+    display: flex;
+    background: black;
+}
+
+.copyright {
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-size: 11px;
+}
+/* copyright End */
+
+@media only screen and (max-width: 790px) {
+    .nav-mobile {
+        display: block;
+    }
+    .navbar {
+        width: 100%;
+        padding: 70px 0px 0px;
+    }
+    .navbar ul {
+        display: none;
+    }
+    .navbar ul li {
+        float: none;
+    }
+    .navbar ul li a {
+        padding: 15px;
+        line-height: 20px;
+    }
+    .navbar ul li ul li a {
+        padding-left: 30px;
+    } 
+    .nav-dropdown {
+        position: static;
+    }
+    .wrapper p {
+        margin-bottom: 40px;
+        color:  #225D38;
+        font-size: 20px;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (min-width: 799px) {
+    .nav-list {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .newsletter .input {
+        width: 64%;
+        margin-left: 6px;
+    }
+    .newsletter .btn {
+        right: 15px;
+        padding: 10px 13px;
+        border-radius: 20px;
+        font-size: 8px;
+        letter-spacing: 3px;
+    }
+    .newsletter .input {
+        width: 69%;
+        padding: 20px 53px 20px 50px;
+    }
+}

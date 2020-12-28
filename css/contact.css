@@ -1,0 +1,117 @@
+.general-section {
+    display: grid;
+    padding-top: 75px;
+    height: 20vh;
+    background: #fff;
+}
+
+.general-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.general-contact {
+    justify-self: center;
+    align-self: center;
+    font-family: 'Comfortaa';
+    font-size: 20px;
+}
+
+.general-number {
+    justify-self: center;
+    align-self: center;
+    font-family: 'Comfortaa';
+    font-size: 13px;
+}
+
+.general-address {
+    justify-self: center;
+    align-self: center;
+    font-family: 'Comfortaa';
+    font-size: 13px;
+}
+
+.maps-section {
+    display: grid;
+}
+
+.maps-container {
+    justify-self: center;
+    padding: 0px 50px;
+}
+
+.googlemaps {
+    width: 100%;
+    height: 100vh;
+}
+
+:root {
+    --font-color: #225D38;
+    --font-hover-color: orange;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    height: auto;
+    width: auto;
+}
+
+.form-group {
+    margin-bottom: .7em;
+}
+
+.form-label {
+    font-size: .75em;
+    color: var(--font-color);
+    display: block;
+    opacity: 1;
+}
+
+.form-control {
+    box-shadow: none;
+    border-radius: 0;
+    border-color: #ccc;
+    border-style: none none solid none;
+    width: 100%;
+    font-size: 1.25em;
+}
+
+.form-control::placeholder {
+    color: #aaa;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--font-hover-color);
+    outline: none;
+}
+
+.btn {
+    background: 0 0 #fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    color: var(--font-color);
+    font-size: 1em;
+    padding: 10 50px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    border-color: var(--font-hover-color);
+    color: var(--font-hover-color);
+}
+
+.textarea {
+    resize: none;
+}
+
+@media (max-width: 768px) {
+    .googlemaps {
+        padding: 0px 45px 0px 45px;
+        width: 90%;
+        height: 60vh;
+    }
+}
