@@ -261,6 +261,22 @@ body, html {
     font-size: 20px;
 }
 
+.newsname {
+    max-width: 550px;
+    width: 100%;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.newsname .input {
+    width: 76%;
+    padding: 20px 63px 20px 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: bold;
+    font-size: 15px;
+}
+
 .newsletter {
     max-width: 550px;
     width: 100%;
@@ -269,10 +285,11 @@ body, html {
 
 .newsletter .input {
     width: 76%;
-    padding: 30px 63px 30px 60px;
-    border-radius: 5px;
+    padding: 20px 63px 20px 60px;
+    border-radius: 10px;
     border: none;
     font-size: bold;
+    font-size: 15px;
 }
 
 .newsletter .far {
@@ -283,7 +300,22 @@ body, html {
     font-size: 20px;
 }
 
-.newsletter .btn {
+/* .newsletter .btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+    background: #225D38;
+    padding: 15px 20px;
+    border-radius: 25px;
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+} */
+
+.button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
