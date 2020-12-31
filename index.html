@@ -70,24 +70,28 @@
     </div>
 
     <!--News Letter Start-->
-    <!-- <script type="text/javascript">var submitted=false;</script> -->
-    <!-- <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted) {window.location='index.html';}"></iframe> -->
-    <form name="myForm" action="https://docs.google.com/forms/d/e/1FAIpQLSdzTvowu6urgWvcKJCTay_vjPVOKOknm4qVEsZ-fd4xTpe8MQ/viewform?embedded=true&amp;usp=embed_googleplus">
         <div class="wrapper">
             <h1>Subscribe</h1>
             <p>Sign Up With Your Name and Email Address To Receive News And Updates</p>
-            <div class="newsname">
-                <input type="text" name="entry.1669221491" class="input" placeholder="Enter Your Full Name" id="fullname" required>
-            </div>
-            <div class="newsletter">
-                <input type="text" name="emailAddress" class="input" placeholder="Enter Your Email"  id="email" required>
-                <i class="far fa-envelope"></i>
-                <div class="btn">
-                    <button type="submit" id="submit" class="button">Subscribe</button>
+            <form name="form" id="form" class="form">
+                <div class="form-control">
+                    <label for="fullname">Enter Your Full Name</label>
+                    <input type="text" class="input" placeholder="Full Name" id="fullname">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
                 </div>
-            </div>
+                <div class="form-control">
+                    <label for="email">Enter Your Email</label>
+                    <input type="text" name="emailAddress" class="input" placeholder="Email"  id="email">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <button>Submit</button>
+            </form>
         </div>
-    </form>
+
     <!-- News Letter End -->
 
     <div class="content">
@@ -101,7 +105,7 @@
     <!-- Copyright Start -->
     <div class="copyright-container">
         <div class="copyright">
-            <p class="copyright">Copyright © 2020 VD Audio Rental. All rights reserved.</p>
+            <p class="copyright">Copyright © 2020 VD Audio Rental. All rights reserved. Ver 2.10</p>
         </div>
     </div>
     <!-- Copyright End -->
