@@ -46,6 +46,7 @@ section ul li.active {
     width: 300px;
     height: 300px;
     margin: 30px;
+    cursor: pointer;
 }
 
 .product .itemBox img {

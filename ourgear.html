@@ -89,20 +89,20 @@
                     <img src="img/brand-img/AKG_brand_logo_by_harman_black.png" alt="AKG" />
                 </a>
             </div>
-            <div class="itemBox Microphones"><img src="img/brand-img/AT_Combo_B_V2_Logo_Black_on_Transparent.png" alt=""></div>
-            <div class="itemBox Microphones"><img src="img/brand-img/CAI_dot_logo.png" alt=""></div>
-            <div class="itemBox Microphones"><img src="img/brand-img/crown_brand_logo_by_harman_vertical_full_color.png" alt=""></div>
-            <div class="itemBox Microphones"><img src="img/brand-img/DPA Black.png" alt=""></div>
-            <div class="itemBox Microphones"><img src="img/brand-img/Earthworks-Logo-Black.png" alt=""></div>
-            <div class="itemBox Microphones"><img src="img/brand-img/Ev.png" alt=""></div>
-            <div class="itemBox Microphones"><img src="img/brand-img/HeilSoundLogo-Vector.png" alt=""></div>
-            <div class="itemBox Microphones"><img src="img/brand-img/Neumann_Diamond.png" alt=""></div>
-            <div class="itemBox Microphones"><img src="img/brand-img/professionalwireless.png" alt=""></div>
-            <div class="itemBox Microphones"><img src="img/brand-img/rode_logo_inverse.png" alt=""></div>
-            <div class="itemBox Microphones"><img src="img/brand-img/royer.png" alt=""></div>
-            <div class="itemBox Microphones"><img src="img/brand-img/Sennheiser.png" alt=""></div>
-            <div class="itemBox Microphones"><img src="img/brand-img/shure_rgb.png" alt=""></div>
-            <div class="itemBox Microphones"><img src="img/brand-img/TELEFUNKENElektro-2017-VertDiamond-Black.png" alt=""></div>
+            <div class="itemBox Microphones"id="microphone"><img src="img/brand-img/AT_Combo_B_V2_Logo_Black_on_Transparent.png" alt="Audio-Technica"></div>
+            <div class="itemBox Microphones"><img src="img/brand-img/CAI_dot_logo.png" alt="Countryman"></div>
+            <div class="itemBox Microphones"><img src="img/brand-img/crown_brand_logo_by_harman_vertical_full_color.png" alt="Crown"></div>
+            <div class="itemBox Microphones"><img src="img/brand-img/DPA Black.png" alt="DPA"></div>
+            <div class="itemBox Microphones"><img src="img/brand-img/Earthworks-Logo-Black.png" alt="Earthworks"></div>
+            <div class="itemBox Microphones"><img src="img/brand-img/Ev.png" alt="Ev"></div>
+            <div class="itemBox Microphones"><img src="img/brand-img/HeilSoundLogo-Vector.png" alt="Heilsound"></div>
+            <div class="itemBox Microphones"><img src="img/brand-img/Neumann_Diamond.png" alt="Neumann"></div>
+            <div class="itemBox Microphones"><img src="img/brand-img/professionalwireless.png" alt="Professional Wireless"></div>
+            <div class="itemBox Microphones"><img src="img/brand-img/rode_logo_inverse.png" alt="Rode"></div>
+            <div class="itemBox Microphones"><img src="img/brand-img/royer.png" alt="Royer"></div>
+            <div class="itemBox Microphones"><img src="img/brand-img/Sennheiser.png" alt="Sennheiser"></div>
+            <div class="itemBox Microphones"><img src="img/brand-img/shure_rgb.png" alt="Shure"></div>
+            <div class="itemBox Microphones"><img src="img/brand-img/TELEFUNKENElektro-2017-VertDiamond-Black.png" alt="Telefunken"></div>
             <!-- Microphone End -->
             <!-- DirectBox Start -->
             <div class="itemBox DirectBox"><img src="img/brand-img/Radial-Logo-black.png" alt=""></div>
@@ -141,6 +141,7 @@
             <div class="itemBox OutboardGear"><img src="img/brand-img/brainstorm.png" alt=""></div>
             <div class="itemBox OutboardGear"><img src="img/brand-img/bricastidesign.png" alt=""></div>
             <div class="itemBox OutboardGear"><img src="img/brand-img/empiricallabs.png" alt=""></div>
+            <div class="itemBox OutboardGear"><img src="img/brand-img/eventide.png" alt=""></div>
             <div class="itemBox OutboardGear"><img src="img/brand-img/Focusrite_Logo_Black.png" alt=""></div>
             <div class="itemBox OutboardGear"><img src="img/brand-img/lakeprocessing.png" alt=""></div>
             <div class="itemBox OutboardGear"><img src="img/brand-img/Lexicon_brand_logo_by_harman_blue.png" alt=""></div>
@@ -165,6 +166,7 @@
             <div class="itemBox StudioMonitor"><img src="img/brand-img/Neumann_Diamond.png" alt=""></div>
             <!-- Studio Monitor End -->
             <!-- Player/Recorder Start -->
+            <div class="itemBox PlayerRecorders"><img src="img/brand-img/joeco.png" alt=""></div>
             <div class="itemBox PlayerRecorders"><img src="img/brand-img/instantreplay.png" alt=""></div>
             <div class="itemBox PlayerRecorders"><img src="img/brand-img/SoundDevices-LogoBlack.png" alt=""></div>
             <div class="itemBox PlayerRecorders"><img src="img/brand-img/tascam.png" alt=""></div>
@@ -198,25 +200,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/7f2628bcfc.js" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('.list').click(function(){
-                const value = $(this).attr('data-filter');
-                if (value == 'all'){
-                    $('.intemBox').show('1000');
-                }
-                else {
-                    $('.itemBox').not('.'+value).hide('1000');
-                    $('.itemBox').filter('.'+value).show('1000');
-                }
-            })
-            // add active class on selected item
-
-            $('.list').click(function(){
-                $(this).addClass('active').siblings().removeClass('active');
-            })
-        })
-    </script>
+    <script src="js/ourgearapp.js"></script>
     <!-- Script End -->
 </body>
 </html>
