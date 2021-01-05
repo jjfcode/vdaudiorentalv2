@@ -1,0 +1,169 @@
+/* VD Color:    #225D38 */
+/* VD Font      Roboto Slab // Bold */
+
+/* Bold 700
+font-family: 'Roboto Slab', serif; */
+
+section {
+    padding: 20px;
+    width: 80%;
+    margin: 40px auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+}
+
+section ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+section ul li {
+    list-style: none;
+    background: #eee;
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+}
+
+section ul li.active {
+    background: #03a9f4;
+    color: #fff;
+}
+
+.itemContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+    margin: 40px auto;
+    justify-content: center;
+}
+
+.col-md-4 {
+    flex: 1fr 1fr 1fr;
+    max-width: 100%;
+}
+
+div {
+    display: block;
+}
+
+.ProductCard {
+    margin-bottom: 24px;
+    width: 350px;
+    height: 700px;
+    margin: 30px;
+}
+
+.ProductCard-Container {
+    background: #fff;
+    box-shadow: 2px 2px 6px rgba(0,0,0,.5);
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    position: relative;
+    z-index: -1;
+}
+
+.Product-Image-Wrapper {
+    flex-shrink: 0;
+    flex-grow: 0;
+    background: #dbdbdb;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.ProductCard-Image {
+    overflow: hidden;
+}
+
+.Product-Flags {
+    position: absolute;
+    top: 24px;
+    left: -12px;
+}
+
+.ProductCard-ContentWrapper {
+    padding: 16px 24px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.ProductCard-Text .ProductTitle {
+    margin: 0;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: normal;
+    word-break: break-word;
+}
+
+h4.bold {
+    font-weight: 700;
+}
+
+h4 {
+    color: #000;
+}
+
+.ProductCard-Text .ProductDetailedTitle {
+    color: #8c8c8e;
+    margin: 0 0 10px;
+}
+
+h6.light {
+    font-weight: 100;
+    letter-spacing: .25px;
+}
+
+h6 {
+    font-size: 1.25rem;
+}
+
+.ProductCard__Text .ProductDescription {
+    line-height: 1.71;
+}
+
+p.small {
+    font-size: .875rem;
+    margin-top: 1rem;
+    letter-spacing: .1px;
+}
+
+@media only screen and (max-width: 832px) {
+    /* section{
+        font-size: 10px;
+    }
+    section ul {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .product .itemBox {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+    } */
+}
+
+@media only screen and (max-width: 690px) {
+    /* section ul {
+        grid-template-columns: 1fr 1fr 1fr;
+    } */
+}
+
+@media only screen and (max-width: 470px) {
+    /* section {
+        padding: 0px;
+    }
+    section ul {
+        grid-template-columns: 1fr 1fr;
+    } */
+}
