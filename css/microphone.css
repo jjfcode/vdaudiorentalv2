@@ -14,9 +14,44 @@ section {
 
 section ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-bottom: 10px;
     justify-content: center;
+}
+
+.akg-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 10px;
+    justify-content: center; 
+}
+
+.at-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 10px;
+    justify-content: center; 
+}
+
+.cai-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 10px;
+    justify-content: center;  
+}
+
+.crown-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 10px;
+    justify-content: center;  
+}
+
+.dpa-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 10px;
+    justify-content: center;  
 }
 
 section ul li {
@@ -27,6 +62,10 @@ section ul li {
     letter-spacing: 1px;
     cursor: pointer;
     text-align: center;
+}
+
+.item1 {
+    grid-column-start: 2;
 }
 
 section ul li.active {
