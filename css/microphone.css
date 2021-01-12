@@ -4,6 +4,10 @@
 /* Bold 700
 font-family: 'Roboto Slab', serif; */
 
+.box-container {
+    height: 880px;
+}
+
 section {
     padding: 20px;
     width: 80%;
