@@ -59,6 +59,11 @@
     width: auto;
 }
 
+.tbtitle {
+    font-size: .75em;
+    color: #225D38;
+}
+
 .form-group {
     margin-bottom: .7em;
 }
@@ -77,7 +82,19 @@
     border-style: none none solid none;
     width: 100%;
     font-size: 1.25em;
+    /* z-index: -1; */
 }
+
+.typeofbusiness {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+} 
+
+.typeofbusiness .tb{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+} 
 
 .form-control::placeholder {
     color: #aaa;
