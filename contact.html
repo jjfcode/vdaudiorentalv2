@@ -30,7 +30,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="ourgear.html">Our Gear</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html">Request A Quote</a></li>
                 </ul>
             </div>
 
@@ -64,17 +64,33 @@
     <section class="general-section">
         <div class="general-container">
             <div class="general-contact">
-                <h1>Contact</h1>
+                <h1>Get In Touch</h1>
             </div>
-            <div class="general-number">
-                <h1>Phone: +1 (786) 257-2705<br>
-                    Fax: +1 (305) 626-2506
-                </h1>
-            </div>
-            <div class="general-address">
-                <h1>16405 NW 8th Ave<br>
-                    Miami, FL 33169
-                </h1>
+            <div class="general-info-container">
+                <div class="general-number">
+                    <h1>Phone <br>
+                        Phone: +1 (786) 257-2705<br>
+                    </h1>
+                </div>
+                <div class="general-email">
+                    <h1>Email <br>
+                    Rentals: <br>
+                    info@vdaudiorentals.com <br>
+                    Accounts AP/AR: <br>
+                    accounting@vdaudiorentals.com</h1>
+                </div>
+                <div class="general-address">
+                    <h1>Address <br>
+                        16405 NW 8th Ave<br>
+                        Miami, FL 33169
+                    </h1>
+                </div>
+                <div class="general-hours">
+                    <h1>Office Hours<br>
+                        Monday - Friday<br>
+                        10:00AM - 6:00PM
+                    </h1>
+                </div>
             </div>
         </div>
     </section>
@@ -92,24 +108,31 @@
     <div class="container">
         <form action="#" method="POST" onsubmit="return check()" role="form" class="form">
             <div class="form-group">
-                <label for="name" class="form-label">Your Name</label>
-                <input type="text" class="form-control" id="name" placeholder="" tabindex="1" required>
+                <label for="name" class="form-label">Your Name (Required)</label>
+                <input type="text" class="form-control" id="name" placeholder="" tabindex="1">
             </div>
             <div class="form-group">
-                <label for="companyname" class="form-label">Company Name</label>
-                <input type="text" class="form-control" id="companyname" placeholder="" tabindex="2" required>
+                <label for="companyname" class="form-label">Company Name (Required)</label>
+                <input type="text" class="form-control" id="companyname" placeholder="" tabindex="2">
             </div>
             <div class="form-group">
-                <label for="email" class="form-label">Your Email</label>
-                <input type="email" class="form-control" id="email" placeholder="" tabindex="3" required>
+                <label for="email" class="form-label">Your Email (Required)</label>
+                <input type="email" class="form-control" id="email" placeholder="" tabindex="3">
             </div>
             <div class="form-group">
-                <label for="phone" class="form-label">Your Phone</label>
-                <input type="phone" class="form-control" id="phone" placeholder="" tabindex="4" required>
+                <label for="phone" class="form-label">Your Phone (Required)</label>
+                <input type="phone" class="form-control" id="phone" placeholder="" tabindex="4">
             </div>
-            <div class="form-group">
-                <label for="subject" class="form-label">Subject</label>
-                <input type="text" class="form-control" id="subject" placeholder="" tabindex="5" required>
+            <div class="choose-container">
+                <div class="from-group">
+                    <label for="choose" class="lchoose">Choose (Required)</label>
+                    <div class="choose-select">
+                        <select id="choose" name="choose" class="choose" >
+                            <option value="rental">Request for Rental</option>
+                            <option value="info">General Information</option>
+                        </select>
+                    </div>
+                </div>
             </div>
             <p class="tbtitle">Type Of Business</p>
             <div class="typeofbusiness">
@@ -139,11 +162,15 @@
                 </div>
             </div>
             <div class="form-group">
-                <label for="message" class="form-label">Message</label>
-                <textarea name="message" id="message" class="form-control" cols="50" rows="6" placeholder="Enter Message..." tabindex="12"></textarea>
+                <label for="details" class="form-label">Share Some More Details with Us</label>
+                <textarea name="details" id="details" class="form-control" cols="50" rows="6" placeholder="Enter Message..." tabindex="12"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="comments" class="form-label">Comments / Special Requests</label>
+                <textarea name="comments" id="comments" class="form-control" cols="50" rows="6" placeholder="Enter Message..." tabindex="13"></textarea>
             </div>
             <div>
-                <button type="submit" onclick="send(event)" class="btn" >Send Message!</button>
+                <button type="submit" onclick="check()" class="btn" >Send Message!</button>
             </div>
         </form>
     </div>

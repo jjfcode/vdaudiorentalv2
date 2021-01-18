@@ -1,13 +1,18 @@
 .general-section {
     display: grid;
-    padding-top: 75px;
+    padding-top: 25px;
+    padding-bottom: 100px;
     height: 20vh;
     background: #fff;
 }
 
 .general-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+}
+
+.general-info-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 
 .general-contact {
@@ -15,11 +20,21 @@
     align-self: center;
     font-family: 'Comfortaa';
     font-size: 20px;
+    text-shadow: 2px 2px 5px rgb(56, 56, 56);
 }
 
 .general-number {
     justify-self: center;
     align-self: center;
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-size: 13px;
+}
+
+.general-email {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
     font-family: 'Comfortaa';
     font-size: 13px;
 }
@@ -27,6 +42,15 @@
 .general-address {
     justify-self: center;
     align-self: center;
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-size: 13px;
+}
+
+.general-hours {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
     font-family: 'Comfortaa';
     font-size: 13px;
 }
@@ -85,6 +109,26 @@
     /* z-index: -1; */
 }
 
+.choose-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+label.lchoose {
+    font-size: .75em;
+    color: #225D38;
+}
+
+.choose-select {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.choose {
+    width: 100%;
+    color: #225D38;
+}
+
 .typeofbusiness {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -125,21 +169,33 @@
     resize: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 798px) {
     .googlemaps {
         padding: 0px 45px 0px 45px;
         width: 90%;
         height: 60vh;
     }
+    .general-section {
+        padding-bottom: 100px;
+    }
+    .general-info-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
     .general-contact {
-        font-size: 25px;
+        font-size: 20px;
     }
     .general-number {
-        font-size: 15px;
+        font-size: 10px;
     }
-    
+    .general-email {
+        font-size: 10px;
+    }
     .general-address {
-        font-size: 15px;
+        font-size: 10px;
+    }
+    .general-hours {
+        font-size: 10px;
     }
 }
 
@@ -154,14 +210,22 @@
         width: 100%;
         height: 50vh;
     }
+    .general-section {
+        padding-bottom: 50px;
+    }
     .general-contact {
         font-size: 12px;
     }
     .general-number {
         font-size: 8px;
     }
-    
+    .general-email {
+        font-size: 8px;
+    }
     .general-address {
+        font-size: 8px;
+    }
+    .general-hours {
         font-size: 8px;
     }
 }

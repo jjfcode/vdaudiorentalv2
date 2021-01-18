@@ -1,4 +1,8 @@
 function check() {
+    var name = document.getElementById('name').value;
+    var companyName = document.getElementById('companyname').value;
+    var email = document.getElementById('email').value;
+    var phone = document.getElementById('phone').value;
     var touring = document.getElementById('touring').checked;
     var liveevent = document.getElementById('live-event').checked;
     var corporate = document.getElementById('corporate').checked;
@@ -6,16 +10,70 @@ function check() {
     var videopro = document.getElementById('video-pro').checked;
     var other = document.getElementById('other').checked;
 
-    if(touring==false && liveevent==false && corporate==false && studio==false && videopro==false && other==false) {
+    if(name==false) {
+        alert('Your Name is Required');
+        return false;
+    } else if(companyName==false) {
+        alert('Your Company Name is Required');
+        return false;
+    } else if(email==false) {
+        alert('Your Email is Required');
+        return false;
+    } else if(phone==false) {
+        alert('Your Phone is Required');
+        return false;
+    } else if(touring==false && liveevent==false && corporate==false && studio==false && videopro==false && other==false) {
         alert('Please One Type Of Business Need to be Check');
         return false;
-    }
-    else{
-        return true;
+    } else {
+        send(event);
     }
 }
 
+var touring; 
+var liveEvent; 
+var corporate; 
+var studio;
+var videoPro;
+var other;
+
 function send(event) {
+    if(document.getElementById('touring').checked){
+        touring = "Touring----";
+    }
+    else {
+        touring = "";
+    }
+    if(document.getElementById('live-event').checked){
+        liveEvent = "LiveEvent----";
+    }
+    else {
+        liveEvent = "";
+    }
+    if(document.getElementById('corporate').checked){
+        corporate = "Corporate----";
+    }
+    else {
+        corporate = "";
+    }
+    if(document.getElementById('studio').checked){
+        studio = "Studio----";
+    }
+    else {
+        studio = "";
+    }
+    if(document.getElementById('video-pro').checked){
+        videoPro = "VideoPro----";
+    }
+    else {
+        videoPro = "";
+    }
+    if(document.getElementById('other').checked){
+        other = "Other----";
+    }
+    else {
+        other = "";
+    }
     event.preventDefault();
     Email.send({
         name:document.getElementById('name').value,
@@ -23,18 +81,14 @@ function send(event) {
         SecureToken : "14b14874-42eb-4126-9715-253ac1a1daf0",
         To : 'jjfcode@gmail.com',
         From : document.getElementById('email').value,
-        Subject : document.getElementById('subject').value,
+        Subject : 'Request a Quote',
         Body : "<h3 style='display:inline;'>Name: </h3>" + document.getElementById('name').value + 
         "<br><h3 style='display:inline;'>Company Name: </h3>" + document.getElementById('companyname').value + 
         "<br><h3 style='display:inline;'>Email: </h3>" + document.getElementById('email').value + 
         "<br> <h3 style='display:inline;'>Phone: </h3>" + document.getElementById('phone').value + 
-        "<br> <h3 style='display:inline;'>Type Of Business: </h3>" + document.getElementById('touring').value +
-        "----" + document.getElementById('live-event').value + "----" + document.getElementById('corporate').value +
-        "----" + document.getElementById('studio').value + "----" + document.getElementById('video-pro').value +
-        "----" + document.getElementById('other').value +
-        "<br><h3 style='display:inline;'>Message: </h3>" + document.getElementById('message').value,
-        //El body toma como mensaje codigo html, Asi que todo lo que viene antes de la coma es lo que va aparecer en el mensaje del email
-        //Usando js comun, podemos agregar html en formato de un string, seguido por lo que ingreso el usuario en el formulario
+        "<br> <h3 style='display:inline;'>Type Of Business: </h3>" + touring + liveEvent  + corporate  + studio +  videoPro  + other +
+        "<br><h3 style='display:inline;'>Message: </h3>" + document.getElementById('details').value +
+        "<br><h3 style='display:inline;'>Message: </h3>" + document.getElementById('comments').value,
         }).then(function(response){
             if (response == 'OK') {
                 alert("Mail sent succesfully");
