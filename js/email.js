@@ -3,6 +3,7 @@ function check() {
     var companyName = document.getElementById('companyname').value;
     var email = document.getElementById('email').value;
     var phone = document.getElementById('phone').value;
+    var choose = document.getElementById('choose').value;
     var touring = document.getElementById('touring').checked;
     var liveevent = document.getElementById('live-event').checked;
     var corporate = document.getElementById('corporate').checked;
@@ -21,6 +22,9 @@ function check() {
         return false;
     } else if(phone==false) {
         alert('Your Phone is Required');
+        return false;
+    } else if(choose==false) {
+        alert('Please Choose One');
         return false;
     } else if(touring==false && liveevent==false && corporate==false && studio==false && videopro==false && other==false) {
         alert('Please One Type Of Business Need to be Check');
@@ -86,6 +90,7 @@ function send(event) {
         "<br><h3 style='display:inline;'>Company Name: </h3>" + document.getElementById('companyname').value + 
         "<br><h3 style='display:inline;'>Email: </h3>" + document.getElementById('email').value + 
         "<br> <h3 style='display:inline;'>Phone: </h3>" + document.getElementById('phone').value + 
+        "<br> <h3 style='display:inline;'>Choose: </h3>" + document.getElementById('choose').value +
         "<br> <h3 style='display:inline;'>Type Of Business: </h3>" + touring + liveEvent  + corporate  + studio +  videoPro  + other +
         "<br><h3 style='display:inline;'>Message: </h3>" + document.getElementById('details').value +
         "<br><h3 style='display:inline;'>Message: </h3>" + document.getElementById('comments').value,

@@ -31,7 +31,7 @@ body, html {
     position: sticky;
     height: 70px;
     background: #fff;
-    z-index: #999;
+    z-index: 999;
     width: 100%;
     top: 0px;
     left: 0px;
@@ -250,21 +250,26 @@ body, html {
 }
 
 .wrapper h1 {
-    margin-bottom: 40px;
-    font-size: 42px;
+    margin-bottom: 5px;
+    font-size: 32px;
     color: #225D38;
 }
 
 .wrapper p {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     color:  #225D38;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .form-control {
     margin-bottom: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     position: relative;
+}
+
+.form-control label {
+    font-size: 14px;
+    color:  #225D38;
 }
 
 .form-control input {
@@ -285,10 +290,106 @@ body, html {
     display: block;
     font-family: inherit;
     font-size: 16px;
-    padding: 10px;
+    padding: 5px;
     width: 100%;
 }
 /* subscribe End */
+
+/* Ad start */
+.box {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 15px;
+    margin: 0 auto;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow:0 2px 10px rgba(0,0,0,.2);
+}
+
+.card:before,
+.card:after {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background: #fff;
+    transition: 0.5s;
+    z-index:-1;
+}
+
+.card:hover:before {
+    transform: rotate(20deg);
+     box-shadow: 0 2px 20px rgba(0,0,0,.2);
+}
+
+.card:hover:after {
+    transform: rotate(10deg);
+    box-shadow: 0 2px 20px rgba(0,0,0,.2);
+}
+
+.card .imgBx {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: #222;
+    transition: 0.5s;
+    z-index: 1;
+}
+  
+.card:hover .imgBx {
+    bottom: 80px;
+}
+
+.card .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .details {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 60px;
+    text-align: center;
+}
+
+.card .details h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    color: #777;
+    text-transform: uppercase;
+} 
+
+.card .details h2 span {
+    font-weight: 500;
+    font-size: 13px;
+    color: #f38695;
+    display: block;
+    margin-top: 5px;
+} 
+/* Ad End */
 
 /* copyright start */
 .copyright-container {
@@ -357,5 +458,11 @@ body, html {
         width: 72%;
         margin-left: 13px;
         padding: 20px 40px 20px 45px;
+    }
+    .box {
+        padding-top: 20px;
+        padding-bottom: 5px;
+        width: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 }
