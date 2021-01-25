@@ -1,58 +1,72 @@
-.general-section {
-    display: grid;
-    padding-top: 25px;
-    padding-bottom: 100px;
-    height: 20vh;
-    background: #fff;
+/* VD Color:    #225D38 */
+/* VD Font      Roboto Slab // Bold */
+
+.container-g {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
 }
 
-.general-container {
-    display: grid;
-}
-
-.general-info-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-
-.general-contact {
-    justify-self: center;
-    align-self: center;
-    font-family: 'Comfortaa';
-    font-size: 20px;
-    text-shadow: 2px 2px 5px rgb(56, 56, 56);
-}
-
-.general-number {
-    justify-self: center;
-    align-self: center;
+.container-g .box {
     text-align: center;
-    font-family: 'Comfortaa';
-    font-size: 13px;
 }
 
-.general-email {
-    justify-self: center;
-    align-self: center;
-    text-align: center;
-    font-family: 'Comfortaa';
-    font-size: 13px;
+.container-g .box .icon .fas {
+    font-size: 40px;
+    cursor: pointer;
 }
 
-.general-address {
-    justify-self: center;
-    align-self: center;
-    text-align: center;
-    font-family: 'Comfortaa';
-    font-size: 13px;
+.container-g .box .icon h3,
+.container-g .box .icon h4 {
+    position: relative;
+    overflow: hidden;
+    font-weight: 400;
+    margin: 0;
+    padding: 2px 5px;
+    font-size: 24px;
+    transition-delay: 0.3333s;
+    color: transparent;
 }
 
-.general-hours {
-    justify-self: center;
-    align-self: center;
-    text-align: center;
-    font-family: 'Comfortaa';
-    font-size: 13px;
+.container-g .box .icon h3 {
+    font-size: 18px;
+}
+
+.container-g .box .fas:hover ~ h3,
+.container-g .box .fas:hover ~ h4{
+    color: #000;
+}
+
+.container-g .box .icon h4 {
+    font-weight: 600;
+    margin: 5px 0;
+    font-style: 30px;
+}
+
+.container-g .box .icon h3:before,
+.container-g .box .icon h4:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background: #599770;
+    transition: 1s;
+}
+
+.container-g .box .icon h4:before {
+    left: initial;
+    right: 100%;
+    background:#225D38;
+}
+.container-g .box .fas:hover ~ h3:before {
+    left: -100%;
+}
+.container-g .box .fas:hover ~ h4:before {
+    left: initial;
+    right: -100%;
 }
 
 .maps-section {
@@ -65,8 +79,11 @@
 }
 
 .googlemaps {
-    width: 100%;
-    height: 100vh;
+    display: block;
+    width: 75%;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 :root {
