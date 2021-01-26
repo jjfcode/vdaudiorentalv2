@@ -2,7 +2,7 @@
 /* VD Font      Roboto Slab // Bold */
 
 .container-g {
-    width: 90%;
+    width: 75%;
     margin: 0 auto;
     display: flex;
     justify-content:space-between;
@@ -14,6 +14,7 @@
 
 .container-g .box .icon .fas {
     font-size: 40px;
+    color: #225D38;
     cursor: pointer;
 }
 

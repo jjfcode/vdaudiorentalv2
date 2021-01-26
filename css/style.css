@@ -8,12 +8,13 @@ body, html {
     font-family: 'Roboto Slab', serif;
     margin: 0;
     padding: 0px;
+    background-image: url(../img/main_img.png);
 }
 
-.image-container img {
+/* .image-container img {
     width: 100%;
     max-height: 100%;
-}
+} */
 
 .content {
     padding: 18px 24px;
@@ -30,7 +31,7 @@ body, html {
 .navigation-bar-container {
     position: sticky;
     height: 70px;
-    background: #fff;
+    background:  rgba(255, 255, 255, 0.9);
     z-index: 999;
     width: 100%;
     top: 0px;
@@ -56,7 +57,7 @@ body, html {
 }
 
 .nav-container {
-    max-width: 1000px;
+    max-width: 1400px;
     margin: 0px auto;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
 }
@@ -235,7 +236,7 @@ body, html {
 
 /* Subscribe Start */
 .wrapper {
-    background: rgb(253, 184, 172);
+    background: rgb(255, 255, 255,.5);
     padding-bottom: 30px;
     outline: none;
     box-sizing: border-box;
@@ -327,7 +328,7 @@ body, html {
     border-radius: 4px;
     background: #fff;
     transition: 0.5s;
-    z-index:-1;
+    z-index: 0;
 }
 
 .card:hover:before {
@@ -348,7 +349,7 @@ body, html {
     right: 10px;
     background: #222;
     transition: 0.5s;
-    z-index: 1;
+    z-index: 2;
 }
   
 .card:hover .imgBx {
@@ -371,6 +372,7 @@ body, html {
     bottom: 10px;
     height: 60px;
     text-align: center;
+    z-index: 1;
 }
 
 .card .details h2 {
