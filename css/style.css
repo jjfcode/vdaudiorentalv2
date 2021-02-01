@@ -8,13 +8,7 @@ body, html {
     font-family: 'Roboto Slab', serif;
     margin: 0;
     padding: 0px;
-    background-image: url(../img/main_img.png);
 }
-
-/* .image-container img {
-    width: 100%;
-    max-height: 100%;
-} */
 
 .content {
     padding: 18px 24px;
@@ -235,9 +229,15 @@ body, html {
 /* social Media End */
 
 /* Subscribe Start */
+
+
 .wrapper {
-    background: rgb(255, 255, 255,.5);
-    padding-bottom: 30px;
+    background: url(../img/main_img.png);
+    background-position: bottom;
+    background-size: 100%;
+    /* background: radial-gradient(circle, rgba(238,238,238,1) 0%, rgba(23,13,15,1) 100%); */
+    padding-top: 30px;
+    padding-bottom: 80px;
     outline: none;
     box-sizing: border-box;
     font-family: 'Comfortaa', cursive;
@@ -253,7 +253,7 @@ body, html {
 .wrapper h1 {
     margin-bottom: 5px;
     font-size: 32px;
-    color: #225D38;
+    color: #fff;
 }
 
 .wrapper p {
@@ -297,10 +297,16 @@ body, html {
 /* subscribe End */
 
 /* Ad start */
+.squareback {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/squre-background.png) 
+}
+
 .box {
-    padding-top: 70px;
+    padding-top: 260px;
     padding-bottom: 30px;
-    width: 60%;
+    width: 70%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 15px;
@@ -309,6 +315,7 @@ body, html {
 
 .card {
     position: relative;
+
     width: 300px;
     height: 350px;
     background: #fff;
