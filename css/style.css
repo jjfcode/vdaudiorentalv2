@@ -240,7 +240,7 @@ body, html {
     padding-bottom: 80px;
     outline: none;
     box-sizing: border-box;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Roboto Slab', serif;
     width: 100%;
     height: 100%;
     display: flex;
@@ -296,11 +296,37 @@ body, html {
 }
 /* subscribe End */
 
+/* First start */
+.firstback {
+    background: url(../img/squre-background.png);
+    height: 50vh;
+    background-size: cover;
+    position: relative;
+}
+
+.firstback h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#225D38;
+    color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 6em;
+    mix-blend-mode: multiply;
+    box-shadow: 0 0 16px #000,0 0 32px #000;
+    opacity: 1;
+    text-align: center;
+}
+
 /* Ad start */
 .squareback {
     width: 100%;
     height: 100vh;
-    background-image: url(../img/squre-background.png) 
+    background-image: url(../img/console_Bx.png) 
 }
 
 .box {
@@ -316,8 +342,8 @@ body, html {
 .card {
     position: relative;
 
-    width: 300px;
-    height: 350px;
+    width: 350px;
+    height: 375px;
     background: #fff;
     margin: 0 auto;
     border-radius: 4px;
@@ -398,7 +424,7 @@ body, html {
     display: block;
     margin-top: 5px;
 } 
-/* Ad End */
+/* Square End */
 
 /* copyright start */
 .copyright-container {
@@ -414,6 +440,12 @@ body, html {
     font-size: 11px;
 }
 /* copyright End */
+
+@media only screen and (max-width: 1260px) {
+    .firstback h2 {
+        font-size: 4em;
+    }
+}
 
 @media only screen and (max-width: 790px) {
     .nav-mobile {
@@ -444,6 +476,9 @@ body, html {
         color:  #225D38;
         font-size: 20px;
         padding-left: 50px;
+    }
+    .firstback h2 {
+        font-size: 3em;
     }
 }
 
