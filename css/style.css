@@ -230,13 +230,12 @@ body, html {
 
 /* Subscribe Start */
 
-
 .wrapper {
     background: url(../img/main_img.png);
     background-position: bottom;
     background-size: 100%;
     /* background: radial-gradient(circle, rgba(238,238,238,1) 0%, rgba(23,13,15,1) 100%); */
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 80px;
     outline: none;
     box-sizing: border-box;
@@ -250,15 +249,26 @@ body, html {
     letter-spacing: 2px;
 }
 
+.wrapperback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 35px 35px;
+    border-radius: 16px;
+    background: rgba(122, 122, 122, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
 .wrapper h1 {
     margin-bottom: 5px;
     font-size: 32px;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .wrapper p {
     margin-bottom: 20px;
-    color:  #225D38;
+    color:  rgb(0, 0, 0);
     font-size: 15px;
 }
 
@@ -270,7 +280,7 @@ body, html {
 
 .form-control label {
     font-size: 14px;
-    color:  #225D38;
+    color:  rgb(0, 0, 0);
 }
 
 .form-control input {
@@ -341,7 +351,6 @@ body, html {
 
 .card {
     position: relative;
-
     width: 350px;
     height: 375px;
     background: #fff;
