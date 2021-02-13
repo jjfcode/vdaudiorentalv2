@@ -307,35 +307,41 @@ body, html {
 
 /* First start */
 .firstback {
-    background: url(../img/squre-background.png);
+    background: url(../img/main_img.png);
     height: 50vh;
     background-size: cover;
     position: relative;
 }
 
 .firstback h2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color:#225D38;
+    position: relative;
+    top: 35%;
+    left: 42%;
+    transform: translate(-30%, -30%);
     color: #fff;
-    padding: 16px;
-    border-radius: 8px;
     margin: 0;
     font-family: 'Roboto Slab', serif;
-    font-size: 6em;
-    mix-blend-mode: multiply;
-    box-shadow: 0 0 16px #000,0 0 32px #000;
-    opacity: 1;
-    text-align: center;
+    font-size: 5vw;
+    text-shadow: 2px 2px rgb(88, 88, 88);
+}
+
+.firstback h3 {
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    transform: translate(-30%, -30%);
+    color: #fff;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5vw;
+    text-shadow: 2px 2px rgb(88, 88, 88);
 }
 
 /* Ad start */
 .squareback {
     width: 100%;
     height: 100vh;
-    background-image: url(../img/console_Bx.png) 
+    background: rgb(218, 218, 218);
 }
 
 .box {
@@ -471,10 +477,6 @@ body, html {
         height: 275px;
         z-index: 0;
     }
-
-    .firstback h2 {
-        font-size: 4em;
-    }
 }
 
 @media only screen and (max-width: 790px) {
@@ -563,9 +565,5 @@ body, html {
     }
     .wrapper p {
         width: 80%;
-    }
-    .firstback h2 {
-        font-size: 2.5em;
-        width: 55%;
     }
 }
