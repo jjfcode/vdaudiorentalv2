@@ -3,6 +3,8 @@
 
 /* Bold 700
 font-family: 'Roboto Slab', serif; */
+/* Medium 500
+font-family: 'Roboto Slab', serif; */
 
 body, html {
     font-family: 'Roboto Slab', serif;
@@ -308,15 +310,17 @@ body, html {
 /* First start */
 .firstback {
     background: url(../img/main_img.png);
-    height: 50vh;
+    height: 80vh;
     background-size: cover;
-    position: relative;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .firstback h2 {
-    position: relative;
-    top: 35%;
-    left: 42%;
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    left: 40%;
     transform: translate(-30%, -30%);
     color: #fff;
     margin: 0;
@@ -327,13 +331,14 @@ body, html {
 
 .firstback h3 {
     position: absolute;
-    top: 55%;
-    left: 48%;
+    top: 49%;
+    left: 26%;
     transform: translate(-30%, -30%);
     color: #fff;
     margin: 0;
     font-family: 'Roboto Slab', serif;
     font-size: 2.5vw;
+    font-weight: 400;
     text-shadow: 2px 2px rgb(88, 88, 88);
 }
 
@@ -479,7 +484,11 @@ body, html {
     }
 }
 
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 790px) { 
+    .firstback h3 {
+        top: 45%;
+    }
+
     .squareback {
         height: 80vh;
     }
@@ -565,5 +574,19 @@ body, html {
     }
     .wrapper p {
         width: 80%;
+    }
+}
+
+@media only screen and (max-width: 375px) { 
+    .firstback h2 {
+        left: 45%;
+    }
+
+    .firstback h3 {
+        left: 32%;
+    }
+
+    .squareback {
+        height: 115vh;
     }
 }
