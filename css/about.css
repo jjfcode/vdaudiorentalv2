@@ -3,41 +3,44 @@
 
 .about-container {
     background: #c3e0ce;
-    padding: 100px 200px 143px 200px;
+    padding: 50px 100px 120px 150px;
     justify-items: center;
+    height: 76vh;
 }
 
 .about-container h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 2.6vw;
     font-family: 'Audiowide', cursive;
     text-shadow: 2px 2px 5px rgb(56, 56, 56);
     letter-spacing: 0.30em;
 }
 
 .about-container .section {
-    margin: 20px;
+    margin: 120px;
     text-align: left;
     text-indent: 30px;
-    line-height: 30px;
+    line-height: 40px;
     font-family: 'Audiowide', cursive;
-    font-size: 25px;
-    letter-spacing: 0.04em;
+    font-size: 1.5vw;
+    letter-spacing: 0.08em;
+}
+
+@media (max-width: 1000px) {
+    .about-container .section {
+        margin: 80px;
+    }
 }
 
 @media (max-width: 768px) {
     .about-container {
-        padding: 88px 80px 80px 90px;
-        justify-items: center;
+        padding: 50px 60px 80px 60px;
     }
 }
 
 @media (max-width: 467px) {
     .about-container {
-        padding: 5px 15px 5px 30px;
+        padding: 25px 15px 5px 30px;
         justify-items: center;
-    }
-    .about-container .section {
-        font-size: 12px;
     }
 }

@@ -497,8 +497,12 @@ body, html {
     .nada {
         display: none;
     }
+    .firstback h2 {
+        left: 44%;
+    }
     .firstback h3 {
         top: 45%;
+        left: 34%;
     }
     .squareback {
         height: 80vh;
@@ -513,6 +517,12 @@ body, html {
         height: 275px;
         z-index: 0;
     }
+    .card .details h2 {
+        font-size: 15px;
+    }
+    .card .details h2 span {
+        font-size: 12px;
+    } 
     .nav-mobile {
         display: block;
     }
@@ -587,9 +597,15 @@ body, html {
         left: 45%;
     }
     .firstback h3 {
-        left: 32%;
+        left: 34%;
     }
     .squareback {
-        height: 115vh;
+        height: 92vh;
     }
+    .card .details h2 {
+        font-size: 13px;
+    }
+    .card .details h2 span {
+        font-size: 10px;
+    } 
 }
