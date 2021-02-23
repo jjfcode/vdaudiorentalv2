@@ -34,7 +34,8 @@
 
 @media (max-width: 768px) {
     .about-container {
-        padding: 50px 60px 80px 60px;
+        padding: 30px 50px 50px 30px;
+        margin: 20px;
     }
 }
 
