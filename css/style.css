@@ -563,7 +563,7 @@ body, html {
 
 @media only screen and (max-width: 458px) {
     .squareback {
-        height: 90vh;
+        height: 100vh;
     }
     .box {
         width: 80%;
@@ -575,10 +575,10 @@ body, html {
         z-index: 0;
     }
     .card .details h2 {
-        font-size: 13px;
+        font-size: 12px;
     }
     .card .details h2 span {
-        font-size: 10px;
+        font-size: 9px;
     }
     .newsletter .btn {
         right: 32px;
