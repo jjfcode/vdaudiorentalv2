@@ -6,6 +6,7 @@ font-family: 'Roboto Slab', serif; */
 font-family: 'Roboto Slab', serif; */
 
 .about-container {
+    margin: 0;
     background: #c3e0ce;
     padding: 50px 100px 120px 150px;
     justify-items: center;
@@ -29,6 +30,11 @@ font-family: 'Roboto Slab', serif; */
     font-weight: 500;
     font-size: 1.5vw;
     letter-spacing: 0.08em;
+}
+
+.aboutinst {
+    margin: 0;
+    padding: 15px;
 }
 
 @media (max-width: 1000px) {
