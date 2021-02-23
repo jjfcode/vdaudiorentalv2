@@ -326,9 +326,9 @@ body, html {
 
 .firstback h2 {
     position: absolute;
-    width: 100%;
+    width: 80%;
     top: 40%;
-    left: 40%;
+    left: 34%;
     transform: translate(-30%, -30%);
     color: #fff;
     margin: 0;
@@ -605,10 +605,10 @@ body, html {
 
 @media only screen and (max-width: 375px) { 
     .firstback h2 {
-        left: 45%;
+        left: 39%;
     }
     .firstback h3 {
-        left: 34%;
+        left: 35%;
     }
     .squareback {
         height: 92vh;
