@@ -243,7 +243,7 @@ body, html {
 .wrapper {
     background: url(../img/main_img.png);
     background-position: bottom;
-    background-size: 100%;
+    background-size: cover;
     padding-top: 60px;
     padding-bottom: 80px;
     outline: none;
@@ -321,7 +321,7 @@ body, html {
     height: 80vh;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 .firstback h2 {
@@ -497,7 +497,7 @@ body, html {
         display: none;
     }
     .firstback h2 {
-        left: 44%;
+        left: 38%;
     }
     .firstback h3 {
         top: 45%;
@@ -562,6 +562,9 @@ body, html {
 /* Iphone promax 11 size 458px */
 
 @media only screen and (max-width: 458px) {
+    .firstback {
+        background-size: 150vh;
+    }
     .squareback {
         height: 100vh;
     }
