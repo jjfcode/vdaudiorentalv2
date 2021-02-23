@@ -35,13 +35,14 @@
 @media (max-width: 768px) {
     .about-container {
         padding: 30px 50px 50px 30px;
-        margin: 20px;
+        margin: 5px;
     }
 }
 
 @media (max-width: 467px) {
     .about-container {
-        padding: 25px 15px 5px 30px;
+        padding: 15px 5px 5px 10px;
+        margin: 5px;
         justify-items: center;
     }
 }
