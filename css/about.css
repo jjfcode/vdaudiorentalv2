@@ -1,5 +1,9 @@
 /* VD Color:    #225D38 */
 /* VD Font      Roboto Slab // Bold */
+/* Bold 700
+font-family: 'Roboto Slab', serif; */
+/* Medium 500
+font-family: 'Roboto Slab', serif; */
 
 .about-container {
     background: #c3e0ce;
@@ -11,7 +15,7 @@
 .about-container h2 {
     text-align: center;
     font-size: 2.6vw;
-    font-family: 'Audiowide', cursive;
+    font-family: 'Roboto Slab', serif;
     text-shadow: 2px 2px 5px rgb(56, 56, 56);
     letter-spacing: 0.30em;
 }
@@ -21,7 +25,8 @@
     text-align: left;
     text-indent: 30px;
     line-height: 40px;
-    font-family: 'Audiowide', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
     font-size: 1.5vw;
     letter-spacing: 0.08em;
 }
