@@ -504,7 +504,7 @@ body, html {
         left: 34%;
     }
     .squareback {
-        height: 80vh;
+        height: 85vh;
     }
     .box {
         padding-top: 130px;
@@ -553,11 +553,17 @@ body, html {
     }
 }
 
+@media only screen and (max-width: 665px) {
+    .squareback {
+        height: 130vh;
+    }
+}
+
 /* Iphone promax 11 size 458px */
 
 @media only screen and (max-width: 458px) {
     .squareback {
-        height: 92vh;
+        height: 90vh;
     }
     .box {
         width: 80%;
@@ -567,6 +573,12 @@ body, html {
         width: 200px;
         height: 225px;
         z-index: 0;
+    }
+    .card .details h2 {
+        font-size: 13px;
+    }
+    .card .details h2 span {
+        font-size: 10px;
     }
     .newsletter .btn {
         right: 32px;
