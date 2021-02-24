@@ -7,16 +7,18 @@ font-family: 'Roboto Slab', serif; */
 
 .about-container {
     margin: 0;
-    background: #c3e0ce;
+    background: url(../img/intercom.png);
+    background-size: cover;
     padding: 50px 100px 120px 150px;
     justify-items: center;
-    height: 76vh;
+    height: 100%;
 }
 
 .about-container h2 {
     text-align: center;
     font-size: 2.6vw;
     font-family: 'Roboto Slab', serif;
+    color: #fff;
     text-shadow: 2px 2px 5px rgb(56, 56, 56);
     letter-spacing: 0.30em;
 }
@@ -28,13 +30,10 @@ font-family: 'Roboto Slab', serif; */
     line-height: 40px;
     font-family: 'Roboto Slab', serif;
     font-weight: 500;
+    color: #fff;
     font-size: 1.5vw;
+    text-shadow: 2px 2px 5px rgb(56, 56, 56);
     letter-spacing: 0.08em;
-}
-
-.aboutinst {
-    margin: 0;
-    padding: 15px;
 }
 
 @media (max-width: 1000px) {
