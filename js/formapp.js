@@ -1,7 +1,8 @@
 function validateForm() {
-    var fullname = document.forms["form"]["fullname"].value;
+    var firstname = document.forms["form"]["firstname"].value;
+    var lastname = document.forms["form"]["lastname"].value;
     var email = document.forms["form"]["email"].value;
-    if (fullname != '' && email != '') {
+    if (firstname != '' && lastname != '' && email != '') {
         Swal.fire({
         position: 'top-end',
         icon: 'success',
