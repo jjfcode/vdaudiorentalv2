@@ -5,29 +5,30 @@ font-family: 'Roboto Slab', serif; */
 /* Medium 500
 font-family: 'Roboto Slab', serif; */
 
-.about-container {
-    margin: 0;
-    background: #9aaca0;
-    background-size: cover;
-    padding: 30px;
-    justify-items: center;
-    height: 100%;
-}
-
-.about-container h2 {
+.photo-wrapper {
     text-align: center;
-    font-size: 2.6vw;
+    font-size: 30px;
     font-family: 'Roboto Slab', serif;
     color: #fff;
     text-shadow: 2px 2px 5px rgb(56, 56, 56);
-    letter-spacing: 0.30em;
+    background: #9aaca0;
+    padding: 10px;
 }
 
-.about-container .section {
-    margin: 120px;
-    text-align: left;
-    text-indent: 30px;
-    line-height: 40px;
+.photo-collage {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-container {
+    padding: 0 5px 5px;
+}
+
+.section {
+    padding: 50px;
     font-family: 'Roboto Slab', serif;
     font-weight: 500;
     color: #fff;
@@ -36,32 +37,19 @@ font-family: 'Roboto Slab', serif; */
     letter-spacing: 0.08em;
 }
 
-.photo-collage {
-    margin: 0;
-    padding-top: 40px;  
-}
-
 .aboutinst {
     padding: 50px;
 }
 
 @media (max-width: 1000px) {
-    .about-container .section {
-        margin: 60px;
-    }
-}
-
-@media (max-width: 768px) {
-    .about-container {
-        padding: 30px 50px 50px 30px;
-        margin: 5px;
+    .section {
+        font-size: 2.5vw;
     }
 }
 
 @media (max-width: 467px) {
-    .about-container {
-        padding: 15px 5px 5px 10px;
-        margin: 5px;
-        justify-items: center;
+    .section {
+        padding: 40px;
+        font-size: 3.5vw;
     }
 }
