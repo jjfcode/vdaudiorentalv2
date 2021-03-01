@@ -2,74 +2,42 @@
 /* VD Font      Roboto Slab // Bold */
 
 .container-g {
-    width: 85%;
+    width: 75%;
+    padding-top: 50px;
+    padding-bottom: 20px;
     margin: 0 auto;
     display: flex;
     justify-content:space-between;
 }
 
-.container-g .box {
-    /* height: 0; */
+.container-g .box-c {
     text-align: center;
 }
 
-.container-g .box .icon .fas {
+.container-g .box-c .icon .fas {
     font-size: 40px;
     color: #225D38;
     cursor: pointer;
 }
 
-.container-g .box .icon h3,
-.container-g .box .icon h4 {
+.container-g .box-c .icon h3,
+.container-g .box-c .icon h4 {
     position: relative;
-    /* overflow: hidden; */
     font-weight: 400;
     margin: 0;
     padding: 2px 5px;
     font-size: 24px;
-    /* transition-delay: 0.3333s; */
-    /* color: transparent; */
 }
 
-.container-g .box .icon h3 {
+.container-g .box-c .icon h3 {
     font-size: 18px;
 }
 
-/* .container-g .box .fas:hover ~ h3,
-.container-g .box .fas:hover ~ h4{
-    color: #000;
-} */
-
-.container-g .box .icon h4 {
+.container-g .box-c .icon h4 {
     font-weight: 600;
     margin: 5px 0;
     font-style: 30px;
 }
-
-/* .container-g .box .icon h3:before,
-.container-g .box .icon h4:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 100%;
-    width: 100%;
-    height: 100%;
-    background: #599770;
-    transition: 1s;
-} */
-
-/* .container-g .box .icon h4:before {
-    left: initial;
-    right: 100%;
-    background:#225D38;
-}
-.container-g .box .fas:hover ~ h3:before {
-    left: -100%;
-}
-.container-g .box .fas:hover ~ h4:before {
-    left: initial;
-    right: -100%;
-} */
 
 .maps-section {
     display: grid;
@@ -125,7 +93,6 @@
     border-style: none none solid none;
     width: 100%;
     font-size: 1.25em;
-    /* z-index: -1; */
 }
 
 .choose-container {
@@ -188,7 +155,44 @@ label.lchoose {
     resize: none;
 }
 
+@media (max-width: 1100px) {
+    .container-g .box-c .icon .fas {
+        font-size: 30px;
+    }
+    .container-g .box-c .icon h3,
+    .container-g .box .icon h4 {
+    font-size: 14px;
+    }
+
+    .container-g .box-c .icon h3 {
+        font-size: 12px;
+    }
+
+    .container-g .box-c .icon h4 {
+        font-style: 20px;
+    }
+}
+
 @media (max-width: 798px) {
+    .container-g {
+        width: 95%;
+        padding-top: 50px;
+    }
+    .container-g .box-c .icon .fas {
+        font-size: 15px;
+    }
+    .container-g .box-c .icon h3,
+    .container-g .box-c .icon h4 {
+    font-size: 10px;
+    }
+
+    .container-g .box-c .icon h3 {
+        font-size: 8px;
+    }
+
+    .container-g .box-c .icon h4 {
+        font-style: 8px;
+    }
     .googlemaps {
         padding: 0px 45px 0px 45px;
         width: 90%;
@@ -216,6 +220,7 @@ label.lchoose {
     .general-hours {
         font-size: 10px;
     }
+
 }
 
 /* Iphone promax 11 size 458px */
