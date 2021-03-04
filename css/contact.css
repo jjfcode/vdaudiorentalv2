@@ -68,6 +68,7 @@
     padding: 90px;
     height: auto;
     width: auto;
+    font-family: 'Roboto Slab', serif;
 }
 
 .tbtitle {
@@ -88,11 +89,13 @@
 
 .form-control {
     box-shadow: none;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
     border-radius: 0;
     border-color: #ccc;
     border-style: none none solid none;
     width: 100%;
-    font-size: 1.25em;
+    font-size: .75em;
 }
 
 .choose-container {
