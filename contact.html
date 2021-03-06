@@ -81,9 +81,7 @@
                 <div class="icon">
                     <i class="fas fa-envelope"></i>
                     <h4>Email</h4>
-                    <!-- <h3>Rentals: <br> -->
-                        info@vdaudiorentals.com <br>
-                        <!-- Accounts AP/AR: <br> -->
+                    <h3>info@vdaudiorentals.com <br>
                         accounting@vdaudiorentals.com</h3>
                 </div>
             </div>
@@ -108,74 +106,80 @@
     <!-- Google Maps End -->
 
     <!-- Form Start -->
-    <div class="container" id="form">
-        <form action="#" method="POST" onsubmit="return check()" role="form" class="form">
-            <div class="form-group">
-                <label for="name" class="form-label">Your Name (Required)</label>
-                <input type="text" class="form-control" id="name" placeholder="" tabindex="1">
-            </div>
-            <div class="form-group">
-                <label for="companyname" class="form-label">Company Name (Required)</label>
-                <input type="text" class="form-control" id="companyname" placeholder="" tabindex="2">
-            </div>
-            <div class="form-group">
-                <label for="email" class="form-label">Your Email (Required)</label>
-                <input type="email" class="form-control" id="email" placeholder="" tabindex="3">
-            </div>
-            <div class="form-group">
-                <label for="phone" class="form-label">Your Phone (Required)</label>
-                <input type="phone" class="form-control" id="phone" placeholder="" tabindex="4">
-            </div>
-            <div class="choose-container">
-                <div class="from-group">
-                    <label for="choose" class="lchoose">Choose (Required)</label>
-                    <div class="choose-select">
-                        <select id="choose" name="choose" class="choose" >
-                            <option value="Rental_Request">Request for Rental</option>
-                            <option value="General_information">General Information</option>
-                        </select>
+    <div class="formcontainer">
+        <div class="formhead">
+            <h1>Request A Quote</h1>
+            <h2>Fill out the form below to reach out to our team with your details!</h2>
+        </div>
+        <div class="container" id="form">
+            <form action="#" method="POST" onsubmit="return check()" role="form" class="form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Your Name (Required)</label>
+                    <input type="text" class="form-control" id="name" placeholder="" tabindex="1">
+                </div>
+                <div class="form-group">
+                    <label for="companyname" class="form-label">Company Name (Required)</label>
+                    <input type="text" class="form-control" id="companyname" placeholder="" tabindex="2">
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Your Email (Required)</label>
+                    <input type="email" class="form-control" id="email" placeholder="" tabindex="3">
+                </div>
+                <div class="form-group">
+                    <label for="phone" class="form-label">Your Phone (Required)</label>
+                    <input type="phone" class="form-control" id="phone" placeholder="" tabindex="4">
+                </div>
+                <div class="choose-container">
+                    <div class="from-group">
+                        <label for="choose" class="lchoose">Choose (Required)</label>
+                        <div class="choose-select">
+                            <select id="choose" name="choose" class="choose" >
+                                <option value="Rental_Request">Request for Rental</option>
+                                <option value="General_information">General Information</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <p class="tbtitle">Type Of Business</p>
-            <div class="typeofbusiness">
-                <div class="form-group tb">
-                    <label for="touring" class="form-label touring">Touring</label>
-                    <input type="checkbox" id="touring" name="touring" value="Touring" placeholder="" tabindex="6">
+                <p class="tbtitle">Type Of Business</p>
+                <div class="typeofbusiness">
+                    <div class="form-group tb">
+                        <label for="touring" class="form-label touring">Touring</label>
+                        <input type="checkbox" id="touring" name="touring" value="Touring" placeholder="" tabindex="6">
+                    </div>
+                    <div class="form-group tb">
+                        <label for="live-event" class="form-label">Live Event Production</label>
+                        <input type="checkbox" id="live-event" name="live-event" value="Live Event Production" placeholder="" tabindex="7">
+                    </div>
+                    <div class="form-group tb">
+                        <label for="corporate" class="form-label">Corporate</label>
+                        <input type="checkbox" id="corporate" name="corporate" value="Corporate" placeholder="" tabindex="8">
+                    </div>
+                    <div class="form-group tb">
+                        <label for="studio" class="form-label">Studio Recording</label>
+                        <input type="checkbox" id="studio" name="studio" value="Studio Recording" placeholder="" tabindex="9">
+                    </div>
+                    <div class="form-group tb">
+                        <label for="video-pro" class="form-label">Video Production</label>
+                        <input type="checkbox"  name="video-pro" value="Video Production" id="video-pro" placeholder="" tabindex="10">
+                    </div>
+                    <div class="form-group tb">
+                        <label for="other" class="form-label">Other</label>
+                        <input type="checkbox"  name="other" value="Other" id="other" placeholder="" tabindex="11">
+                    </div>
                 </div>
-                <div class="form-group tb">
-                    <label for="live-event" class="form-label">Live Event Production</label>
-                    <input type="checkbox" id="live-event" name="live-event" value="Live Event Production" placeholder="" tabindex="7">
+                <div class="form-group">
+                    <label for="details" class="form-label">Share Some More Details with Us</label>
+                    <textarea name="details" id="details" class="form-control" cols="50" rows="6" placeholder="Enter Message..." tabindex="12"></textarea>
                 </div>
-                <div class="form-group tb">
-                    <label for="corporate" class="form-label">Corporate</label>
-                    <input type="checkbox" id="corporate" name="corporate" value="Corporate" placeholder="" tabindex="8">
+                <div class="form-group">
+                    <label for="comments" class="form-label">Comments / Special Requests</label>
+                    <textarea name="comments" id="comments" class="form-control" cols="50" rows="6" placeholder="Enter Message..." tabindex="13"></textarea>
                 </div>
-                <div class="form-group tb">
-                    <label for="studio" class="form-label">Studio Recording</label>
-                    <input type="checkbox" id="studio" name="studio" value="Studio Recording" placeholder="" tabindex="9">
+                <div>
+                    <button type="submit" onclick="check()" class="btn" >Send Message!</button>
                 </div>
-                <div class="form-group tb">
-                    <label for="video-pro" class="form-label">Video Production</label>
-                    <input type="checkbox"  name="video-pro" value="Video Production" id="video-pro" placeholder="" tabindex="10">
-                </div>
-                <div class="form-group tb">
-                    <label for="other" class="form-label">Other</label>
-                    <input type="checkbox"  name="other" value="Other" id="other" placeholder="" tabindex="11">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="details" class="form-label">Share Some More Details with Us</label>
-                <textarea name="details" id="details" class="form-control" cols="50" rows="6" placeholder="Enter Message..." tabindex="12"></textarea>
-            </div>
-            <div class="form-group">
-                <label for="comments" class="form-label">Comments / Special Requests</label>
-                <textarea name="comments" id="comments" class="form-control" cols="50" rows="6" placeholder="Enter Message..." tabindex="13"></textarea>
-            </div>
-            <div>
-                <button type="submit" onclick="check()" class="btn" >Send Message!</button>
-            </div>
-        </form>
+            </form>
+        </div>
     </div>
     <!-- Form End -->
 

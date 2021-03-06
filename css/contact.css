@@ -65,14 +65,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 90px;
+    padding: 40px;
     height: auto;
     width: auto;
     font-family: 'Roboto Slab', serif;
 }
 
+.formcontainer {
+    background: rgb(240, 240, 240);
+}
+
 .tbtitle {
     font-size: .75em;
+    color: #225D38;
+}
+
+.formhead h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 40px;
+    color: #225D38;
+}
+
+.formhead h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    text-align: center;
     color: #225D38;
 }
 
