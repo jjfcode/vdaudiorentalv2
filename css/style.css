@@ -8,6 +8,7 @@ font-family: 'Roboto Slab', serif; */
 
 body, html {
     font-family: 'Roboto Slab', serif;
+    font-weight: 700;
     margin: 0;
     padding: 0px;
 }

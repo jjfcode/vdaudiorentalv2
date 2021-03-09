@@ -58,6 +58,13 @@ section ul {
     justify-content: center; 
 }
 
+.col-6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 10px;
+    justify-content: center; 
+}
+
 .col-8 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
