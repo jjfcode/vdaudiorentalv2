@@ -232,4 +232,6 @@
     }
 
     .about-cta-actions .btn {
-        width: 
+        width: min(100%, 320px);
+    }
+}
