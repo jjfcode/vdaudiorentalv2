@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     const filterButtons = document.querySelectorAll('.filter-chip');
-    const gearCards = document.querySelectorAll('.gear-card');
+    const cards = document.querySelectorAll('.gear-card, .product-card');
 
-    if (!filterButtons.length || !gearCards.length) return;
+    if (!filterButtons.length || !cards.length) return;
 
     filterButtons.forEach((button) => {
         const isActive = button.classList.contains('active');
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
             this.classList.add('active');
             this.setAttribute('aria-pressed', 'true');
 
-            gearCards.forEach((card) => {
+            cards.forEach((card) => {
                 const category = card.getAttribute('data-category');
 
                 if (selectedFilter === 'all' || category === selectedFilter) {
