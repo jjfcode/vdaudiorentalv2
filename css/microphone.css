@@ -247,6 +247,46 @@
     outline-offset: 3px;
 }
 
+.product-sale-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.sale-thumbnails {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.sale-thumbnails a {
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    background: #fff;
+}
+
+.sale-thumbnails img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+}
+
+.product-image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .sale-thumbnails {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media only screen and (max-width: 930px) {
     .brand-hero,
     .brand-overview,
