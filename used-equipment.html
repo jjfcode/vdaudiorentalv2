@@ -9,6 +9,7 @@
         gtag('js', new Date());
         gtag('config', 'G-THGDHQVC4K');
     </script>
+    <script src="js/used-equipment.js" defer></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,7 +43,9 @@
             </div>
             <div class="navbar">
                 <div class="nav-mobile">
-                    <a href="#" id="nav-toggle"><span></span></a>
+                    <button id="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+                        <span></span>
+                    </button>
                 </div>
                 <ul class="nav-list">
                     <li><a href="index.html">Home</a></li>
@@ -90,53 +93,60 @@
             <div class="brand-catalog-inner">
                 <div class="catalog-intro">
                     <h2 id="used-gear-heading">Current listings</h2>
-                    <p>
-                        Replace the sample images and text below with your real used inventory.
-                        Use actual item photos instead of stock images so buyers can see the true condition.
-                    </p>
                 </div>
 
                 <div class="product-grid">
-
                     <!-- Listing Start -->
-                     
                     <article class="product-card">
                         <div class="product-card-inner">
                             <div class="product-sale-gallery">
-                                <a class="product-image-wrapper" href="img/used/dpa4099-1.jpg" target="_blank" rel="noopener noreferrer">
-                                    <img src="img/used/dpa4099-1.jpg" alt="Used DPA 4099 front view" loading="lazy">
+                                <a class="product-image-wrapper" href="img/used/BSS.png" target="_blank" rel="noopener noreferrer">
+                                    <img
+                                        class="main-product-image"
+                                        src="img/used/BSS.png"
+                                        alt="Used BSS front view"
+                                        loading="lazy">
                                 </a>
 
                                 <div class="sale-thumbnails">
-                                    <a href="img/used/dpa4099-1.jpg" target="_blank" rel="noopener noreferrer">
-                                        <img src="img/used/dpa4099-1.jpg" alt="Used DPA 4099 front view" loading="lazy">
-                                    </a>
-                                    <a href="img/used/dpa4099-2.jpg" target="_blank" rel="noopener noreferrer">
-                                        <img src="img/used/dpa4099-2.jpg" alt="Used DPA 4099 clip and cable view" loading="lazy">
-                                    </a>
-                                    <a href="img/used/dpa4099-3.jpg" target="_blank" rel="noopener noreferrer">
-                                        <img src="img/used/dpa4099-3.jpg" alt="Used DPA 4099 connector detail" loading="lazy">
-                                    </a>
-                                    <a href="img/used/dpa4099-4.jpg" target="_blank" rel="noopener noreferrer">
-                                        <img src="img/used/dpa4099-4.jpg" alt="Used DPA 4099 condition detail" loading="lazy">
-                                    </a>
+                                    <button
+                                        class="thumb-btn active"
+                                        type="button"
+                                        data-full="img/used/BSS.png"
+                                        data-alt="Used BSS front view"
+                                        aria-pressed="true">
+                                        <img src="img/used/BSS.png" alt="Used BSS front thumbnail" loading="lazy">
+                                    </button>
+
+                                    <button
+                                        class="thumb-btn"
+                                        type="button"
+                                        data-full="img/used/bss-back.png"
+                                        data-alt="Used BSS back view"
+                                        aria-pressed="false">
+                                        <img src="img/used/bss-back.png" alt="Used BSS back thumbnail" loading="lazy">
+                                    </button>
                                 </div>
                             </div>
 
                             <div class="product-copy">
-                                <p class="product-type">Instrument Microphone</p>
-                                <h3>DPA 4099</h3>
+                                <p class="product-type">BSS FCS-960/Dual Mode Equalizer 30 Band W/Filters</p>
+                                <h3>BSS FCS-960</h3>
                                 <p class="product-subtitle">Used equipment for sale</p>
                                 <p class="product-description">
-                                    Condition and clip or accessory configuration may vary by unit.
-                                    Contact us to confirm available mounting hardware, connector type, and pricing.
+                                    The FCS-960 provides two channels of 30 band equalizer with dual mode switching
+                                    between Normal and Fine filter width in 3U of rack space. Constant Q-filters
+                                    with filter-bypass centre taps are controlled by high grade, 45mm faders with
+                                    moulded polymer fader knobs which eliminate visual parallax error even under
+                                    low light conditions. This unit is in very good working condition and shows
+                                    little signs of age and wear. We will let this unit go for $375.00 plus shipping
+                                    (US only) or local pickup. We have 5 of these in stock and can offer a discount
+                                    on 2 or more while combining shipping.
                                 </p>
                             </div>
                         </div>
                     </article>
-
                     <!-- Listing End -->
-
                 </div>
             </div>
         </section>
