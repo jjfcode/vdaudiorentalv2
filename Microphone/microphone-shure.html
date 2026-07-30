@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VD Audio Rental – Rent state of the art audio gear for your production need.</title>
+    <title>Shure Microphones | VD Audio Rental</title>
+    <meta name="description" content="Browse Shure microphone rental inventory from VD Audio Rental for live production, touring, and professional audio applications.">
+    <link rel="canonical" href="https://www.vdaudiorental.com/Microphone/microphone-shure.html">
     <link rel="shortcut icon" href="../img/audiorental circle logo.png" type="image/png">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/microphone.css">
@@ -15,88 +17,104 @@
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <!-- Sticky Navegation Start -->
-    <div class="navigation-bar-container">
+    <header class="navigation-bar-container">
         <div class="nav-container">
             <div class="logo-container">
-                <a href="/"><img src="../img/logo1-smal.png" alt=""></a>
+                <a href="../index.html">
+                    <img src="../img/logo1-smal.png" alt="VD Audio Rental logo">
+                </a>
             </div>
-            <div class="navbar">
+
+            <nav class="navbar" aria-label="Main navigation">
                 <div class="nav-mobile">
-                    <a href="#" id="nav-toggle"><span></span></a>
+                    <button id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" type="button">
+                        <span></span>
+                    </button>
                 </div>
+
                 <ul class="nav-list">
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="../about.html">About</a></li>
+                    <li><a href="../ourgear.html" aria-current="page">Our Gear</a></li>
                     <li><a href="../contact.html">Contact</a></li>
-                    <li class="right"><a href="../ourgear.html">Our Gear</a></li>
-                    <li class="nada"><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-                    <li class="right"><a href="../contact.html#form" style="background: #225D38; color: #fff;">Request A Quote</a></li>
+                    <li><a href="../contact.html" class="nav-cta">Request a Quote</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
-    </div>
-    <!-- Stick Navegation End -->
+    </header>
 
-    <!-- Social Media Start -->
-    <div class="social-bar">
-        <ul class="social-icons">
-            <li class="facebook">
-                <a href="https://www.facebook.com/VDAudioRental" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-            </li>
-            <li class="instagram">
-                <a href="https://instagram.com/vdaudiorental?igshid=rddx5l1ge4iv" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </li>
-            <li class="linkedin">
-                <a href="https://www.linkedin.com/company/vdaudiorental/" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <!-- Social Media End -->
-    
-    <!-- Microphone Section Start -->
-    <section>
-        <ul class="col-3">
-            <li class="list item2 active" data-filter="capsule">Capsule</li>
-            <li class="list item3" data-filter="dynamic">Dynamic</li>
-            <li class="list item4" data-filter="condenser">Condenser</li>
-            <li class="list item5" data-filter="ribbon">Ribbon</li>
-            <li class="list item6" data-filter="gooseneck">Gooseneck</li>
-            <li class="list item7" data-filter="lavalier">Lavalier</li>
-            <li class="list item8" data-filter="headset">HeadSet</li>
-            <li class="list item9" data-filter="wireless">Wireless</li>
-            <li class="list item10" data-filter="accessories">Accessories</li>
-            <li class="list item11" data-filter="earphone">Earphone</li>
-        </ul>
-        <div class="itemContainer">
+    <main id="main-content">
+        <section class="brand-hero">
+            <div class="brand-hero-inner">
+                <p class="eyebrow">Our Gear</p>
+                <h1>Shure Microphones</h1>
+                <p>
+                    Browse available Shure microphone rental inventory from VD Audio Rental for touring,
+                    theatre, live production, and professional audio applications.
+                </p>
+            </div>
+        </section>
+
+        <section class="brand-overview">
+            <div class="brand-overview-inner">
+                <div class="brand-logo-card">
+                    <img src="../img/brand-img/shure_rgb.png" alt="Shure logo" loading="lazy">
+                </div>
+
+                <div class="brand-copy">
+                    <h2>Available Shure inventory</h2>
+                    <p>
+                        Browse the Shure microphone options below and contact us for availability,
+                        production support, and quote requests.
+                    </p>
+                    <a href="../contact.html" class="btn btn-primary">Request a Quote</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="brand-catalog" aria-labelledby="catalog-heading">
+            <div class="brand-catalog-inner">
+                <div class="catalog-intro">
+                    <h2 id="catalog-heading">Filter by microphone type</h2>
+                    <p>Select a category to view available Shure options.</p>
+                </div>
+
+                <div class="filter-toolbar" role="toolbar" aria-label="Shure microphone categories">
+                    <button class="filter-chip active" data-filter="all" type="button" aria-pressed="true">All</button>
+                    <button class="filter-chip" data-filter="capsule" type="button" aria-pressed="false">Capsule</button>
+                    <button class="filter-chip" data-filter="dynamic" type="button" aria-pressed="false">Dynamic</button>
+                    <button class="filter-chip" data-filter="condenser" type="button" aria-pressed="false">Condenser</button>
+                    <button class="filter-chip" data-filter="ribbon" type="button" aria-pressed="false">Ribbon</button>
+                    <button class="filter-chip" data-filter="gooseneck" type="button" aria-pressed="false">Gooseneck</button>
+                    <button class="filter-chip" data-filter="lavalier" type="button" aria-pressed="false">Lavalier</button>
+                    <button class="filter-chip" data-filter="headset" type="button" aria-pressed="false">Headset</button>
+                    <button class="filter-chip" data-filter="wireless" type="button" aria-pressed="false">Wireless</button>
+                    <button class="filter-chip" data-filter="accessories" type="button" aria-pressed="false">Accessories</button>
+                    <button class="filter-chip" data-filter="earphone" type="button" aria-pressed="false">Earphone</button>
+                </div>
+
+                <div class="product-grid">
             <!-- capsule Start -->
-            <article class="ProductCard col-md-4 itemBox capsule">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/rpw112.png">
+            <article class="product-card" data-category="capsule">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/rpw112.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/rpw112.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     RPW112
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Wireless SM58 Cartridge
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Wireless SM58 cartridge replaces the cartridge, housing assembly, and matte grille for wireless SM58 microphones.
                                 </p>
                             </div>
@@ -104,26 +122,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox capsule">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/rpw114.png">
+            <article class="product-card" data-category="capsule">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/rpw114.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/rpw114.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     RPW114
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Wireless SM86 Cartridge
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Wireless SM86 cartridge replaces the cartridge, housing assembly, and matte grille for wireless SM86 microphones.
                                 </p>
                             </div>
@@ -131,26 +149,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox capsule">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/rpw118.png">
+            <article class="product-card" data-category="capsule">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/rpw118.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/rpw118.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     RPW118
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Wireless Beta 58A Cartridge
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Wireless Beta 58A cartridge replaces the cartridge, housing assembly, and matte grille for wireless Beta 58A microphones.
                                 </p>
                             </div>
@@ -158,26 +176,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox capsule">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/rpw120.png">
+            <article class="product-card" data-category="capsule">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/rpw120.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/rpw120.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     RPW120
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Wireless Beta 87A Cartridge
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Wireless Beta 87A cartridge replaces the cartridge, housing assembly, and matte grille for wireless Beta 87A microphones.
                                 </p>
                             </div>
@@ -185,26 +203,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox capsule">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/rpw122.png">
+            <article class="product-card" data-category="capsule">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/rpw122.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/rpw122.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     RPW122
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Wireless Beta 87C Cartridge
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Wireless Beta 87C cartridge replaces the cartridge, housing assembly, and matte grille for wireless Beta 87C microphones.
                                 </p>
                             </div>
@@ -212,26 +230,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox capsule">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/rpw174.png">
+            <article class="product-card" data-category="capsule">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/rpw174.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/rpw174.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     RPW174
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     KSM8 Wireless Capsule for Black Shure
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Wireless KSM8 capsule enables wireless performance with the KSM8 Dualdyne Cardioid Dynamic Microphone.
                                 </p>
                             </div>
@@ -239,26 +257,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox capsule">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/rpw184.png">
+            <article class="product-card" data-category="capsule">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/rpw184.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/rpw184.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     RPW184
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Wireless KSM9 Cartridge
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Black wireless KSM9 cartridge replaces the cartridge, housing assembly, and matte grille for wireless KSM9 microphones.
                                 </p>
                             </div>
@@ -266,26 +284,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox capsule">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/rpw186.png">
+            <article class="product-card" data-category="capsule">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/rpw186.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/rpw186.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     RPW186
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Wireless KSM9HS Cartridge
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Black wireless KSM9HS cartridge replaces the cartridge, housing assembly, and matte grille for wireless KSM9 microphones.
                                 </p>
                             </div>
@@ -293,26 +311,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox capsule">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/RPW192.png">
+            <article class="product-card" data-category="capsule">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/RPW192.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/RPW192.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     RPW192
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Wireless Cardioid Condenser Vocal Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     The KSM11 Wireless Vocal Microphone Capsule redefines vocal performance by providing a prized combination of full lows, clear mids and high-end detail, without the need for extensive EQ. A cardioid condenser designed specifically for live performance, event recording and premium streaming, the KSM11 allows digital wireless systems to present live vocals that must be heard to be believed.
                                 </p>
                             </div>
@@ -320,54 +338,54 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox capsule">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/Nexadyne8C.png">
+            <article class="product-card" data-category="capsule">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/Nexadyne8C.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/Nexadyne8C.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     RPW200
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Nexadyne 8/C Cardioid Dynamic Wireless Capsule
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
-                                    Nexadyne™ 8/C Cardioid Dynamic Wireless Capsule with black finish for use with Shure Handheld Transmitters
+                                <p class="product-description">
+                                    NexadyneÃ¢â€žÂ¢ 8/C Cardioid Dynamic Wireless Capsule with black finish for use with Shure Handheld Transmitters
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox capsule">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/Nexadine8S.png">
+            <article class="product-card" data-category="capsule">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/Nexadine8S.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/Nexadine8S.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     RPW204
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
-                                    Nexadyne™ 8/S Supercardioid Dynamic Wireless Capsule
-                                </h6>
+                                </h3>
+                                <p class="product-subtitle">
+                                    NexadyneÃ¢â€žÂ¢ 8/S Supercardioid Dynamic Wireless Capsule
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
-                                    Nexadyne™ 8/S Supercardioid Dynamic Wireless Capsule with black finish for use with Shure Handheld Transmitters
+                                <p class="product-description">
+                                    NexadyneÃ¢â€žÂ¢ 8/S Supercardioid Dynamic Wireless Capsule with black finish for use with Shure Handheld Transmitters
                                 </p>
                             </div>
                         </div>
@@ -376,26 +394,26 @@
             </article>
             <!-- capsule end -->
             <!-- Dynamic Start -->
-            <article class="ProductCard col-md-4 itemBox dynamic">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SM58LC.png">
+            <article class="product-card" data-category="dynamic">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SM58LC.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SM58LC.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SM58
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Dynamic Vocal Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     With a classic, timeless sound that is both rich and clear, the SM58 is the vocal microphone of choice for legends and contemporary performers alike.
                                 </p>
                             </div>
@@ -403,107 +421,107 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox dynamic">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SM57LC.png">
+            <article class="product-card" data-category="dynamic">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SM57LC.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SM57LC.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SM57
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Dynamic Instrument Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
-                                    The world’s single most versatile microphone. On stage or in studio, the SM57 captures every sound from powerful playing to nuanced performance.
+                                <p class="product-description">
+                                    The worldÃ¢â‚¬â„¢s single most versatile microphone. On stage or in studio, the SM57 captures every sound from powerful playing to nuanced performance.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox dynamic">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/Beta58.png">
+            <article class="product-card" data-category="dynamic">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/Beta58.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/Beta58.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     BETA58A
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Dynamic Vocal Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
-                                    For decades, the BETA®58A has been the singer’s best friend, elevating vocal presence to cut through the other sounds on the stage.
+                                <p class="product-description">
+                                    For decades, the BETAÃ‚Â®58A has been the singerÃ¢â‚¬â„¢s best friend, elevating vocal presence to cut through the other sounds on the stage.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox dynamic">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/sm7B.png">
+            <article class="product-card" data-category="dynamic">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/sm7B.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/sm7B.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SM7B
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Vocal Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
-                                    Whether it’s broadcast, podcast or recording, voices need to be handled with care. When purified and polished, every detail has more impact. That’s why the SM7B was built, to capture smooth, warm vocals that connect the speaker to the listener.
+                                <p class="product-description">
+                                    Whether itÃ¢â‚¬â„¢s broadcast, podcast or recording, voices need to be handled with care. When purified and polished, every detail has more impact. ThatÃ¢â‚¬â„¢s why the SM7B was built, to capture smooth, warm vocals that connect the speaker to the listener.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox dynamic">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/BETA52A.png">
+            <article class="product-card" data-category="dynamic">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/BETA52A.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/BETA52A.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     BETA 52A
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Kick Drum Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Drum microphone provides low-frequency bass punch and SPL handling. It includes dynamic locking stand adapter for easy set-up, steel mesh grille for durability, shock mount for sound isolation, and neodymium magnet for high signal-to-noise ratio.
                                 </p>
                             </div>
@@ -511,26 +529,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox dynamic">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/BETA57A.png">
+            <article class="product-card" data-category="dynamic">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/BETA57A.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/BETA57A.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     BETA 57A
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Dynamic Instrument Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Dynamic instrument microphone provides high gain before feedback in demanding environments. It features a steel mesh grille for durability, shock mount to minimize transmission of unwanted noise, and a neodymium magnet for high signal-to-noise ratio.
                                 </p>
                             </div>
@@ -538,26 +556,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox dynamic">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/55SH.png">
+            <article class="product-card" data-category="dynamic">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/55SH.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/55SH.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     55SH Series II
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Iconic Unidyne Vocal Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     If you want to capture a classic look, you need the gear to match the genre. Nothing completes the style quite like the 55SH Series II, a microphone that has been gripped by legends for decades. Others may imitate, but none can duplicate the form and function standards Shure has held from our first Unidyne mic to our latest.
                                 </p>
                             </div>
@@ -565,26 +583,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox dynamic">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/BETA91A.png">
+            <article class="product-card" data-category="dynamic">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/BETA91A.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/BETA91A.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     BETA 91A
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Kick Drum Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Kick drum microphone provides a strong low-end response and maximum gain-before-feedback due to its half-cardioid polar pattern. It features a two-position contour switch to maximize attack and clarity and a low-profile design.
                                 </p>
                             </div>
@@ -592,53 +610,53 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox dynamic">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/KSM8B.png">
+            <article class="product-card" data-category="dynamic">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/KSM8B.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/KSM8B.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     KSM8
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Dualdyne Cardioid Dynamic Vocal Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
-                                    With two ultra-thin diaphragms and groundbreaking reverse airflow technology, the KSM8 Dualdyne™ delivers unmatched control of proximity effect, presence peaks, and bleed and requires minimal EQ and processing.
+                                <p class="product-description">
+                                    With two ultra-thin diaphragms and groundbreaking reverse airflow technology, the KSM8 DualdyneÃ¢â€žÂ¢ delivers unmatched control of proximity effect, presence peaks, and bleed and requires minimal EQ and processing.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox dynamic">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/super55.png">
+            <article class="product-card" data-category="dynamic">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/super55.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/super55.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SUPER 55
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Deluxe Vocal Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     How do you set a classic scene for a modern audience? With a time-honored look that brings the clean, pure sound of now. The Super 55 brings the highest degree of vocal quality to the stage in a vintage, stand-mounted microphone.
                                 </p>
                             </div>
@@ -646,26 +664,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox dynamic">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/BETA56A.png">
+            <article class="product-card" data-category="dynamic">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/BETA56A.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/BETA56A.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     BETA 56A
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Snare/Tom Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Snare and tom microphone for close miking. Equipped with shock mount for sound isolation, it features a dynamic locking stand adapter for simple set-up, a steel mesh grille for durability, and a neodymium magnet for high signal-to-noise ratio.
                                 </p>
                             </div>
@@ -673,26 +691,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox dynamic">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/BETA98AD.png">
+            <article class="product-card" data-category="dynamic">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/BETA98AD.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/BETA98AD.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     BETA 98AD/C
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Instrument Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Instrument microphone delivers a smooth and natural response, and consists of an A98D drum mount for secure placement in any configuration and a uniform cardioid polar pattern for excellent gain-before-feedback and off-axis noise rejection.
                                 </p>
                             </div>
@@ -700,26 +718,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox dynamic">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/BETA98AMP.png">
+            <article class="product-card" data-category="dynamic">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/BETA98AMP.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/BETA98AMP.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     BETA 98AMP/C
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Instrument Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Instrumental microphone combines an integrated preamplifier with a miniature condenser capsule to provide a smooth response for percussion. It features a flexible gooseneck and the A75M microphone mount for secure placement in many configurations.
                                 </p>
                             </div>
@@ -727,26 +745,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox dynamic">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/BETA98H.png">
+            <article class="product-card" data-category="dynamic">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/BETA98H.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/BETA98H.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     BETA 98H/C
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Miniature Instrument Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Miniature instrument microphone delivers high gain-before-feedback and rejection of unwanted noise. It features preamplifier circuitry to improve linearity across the full frequency range, and tailored response for natural sound reproduction.
                                 </p>
                             </div>
@@ -754,26 +772,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox dynamic">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/545SD.png">
+            <article class="product-card" data-category="dynamic">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/545SD.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/545SD.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     545SD
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Classic Instrument Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Instrument microphone delivers an exceptionally uniform cardioid pattern to minimize feedback. It features a silent magnetic reed on and off switch with lock-on option and selectable dual-impedance operation.
                                 </p>
                             </div>
@@ -783,26 +801,26 @@
             </article>
             <!-- Dynamic End -->
             <!-- Condenser Start -->
-            <article class="ProductCard col-md-4 itemBox condenser">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/KSM9.png">
+            <article class="product-card" data-category="condenser">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/KSM9.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/KSM9.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     KSM9
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Condenser Vocal Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     A premium condenser vocal microphone, the KSM9 captures vocal subtlety with extraordinary detail for live performance.
                                 </p>
                             </div>
@@ -810,53 +828,53 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox condenser">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/BETA87A.png">
+            <article class="product-card" data-category="condenser">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/BETA87A.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/BETA87A.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     BETA 87A
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
-                                    BETA® 87A Vocal Microphone
-                                </h6>
+                                </h3>
+                                <p class="product-subtitle">
+                                    BETAÃ‚Â® 87A Vocal Microphone
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
-                                    Add some studio-grade clarity to the live mix. Designed to capture brighter vocals with sparkling accuracy, the BETA® 87A brings more crisp to the concert. And the increased presence will have everyone singing your praises.
+                                <p class="product-description">
+                                    Add some studio-grade clarity to the live mix. Designed to capture brighter vocals with sparkling accuracy, the BETAÃ‚Â® 87A brings more crisp to the concert. And the increased presence will have everyone singing your praises.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox condenser">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/KSM9HS.png">
+            <article class="product-card" data-category="condenser">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/KSM9HS.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/KSM9HS.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     KSM9HS
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Condenser Microphone with Switchable Polar
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Condenser microphone that captures extraordinary vocal detail due to its switchable hypercardioid and subcardioid patterns. It features exceptional consistency across all frequencies, a dual Mylar diaphragm, a shock mount, and multiple color options.
                                 </p>
                             </div>
@@ -864,53 +882,53 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox condenser">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/BETA181.png">
+            <article class="product-card" data-category="condenser">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/BETA181.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/BETA181.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     BETA 181
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Side-Address Condenser Microphone with interchangeable capsules
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
-                                    The precision-engineered BETA®181 is a versatile condenser instrument microphone with interchangeable polar pattern capsule options.
+                                <p class="product-description">
+                                    The precision-engineered BETAÃ‚Â®181 is a versatile condenser instrument microphone with interchangeable polar pattern capsule options.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox condenser">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/BETA87C.png">
+            <article class="product-card" data-category="condenser">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/BETA87C.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/BETA87C.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     BETA 87C
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Vocal Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Vocal microphone delivers a tailored response for a warm, natural sound. It features a cardioid polar pattern for maximum isolation, minimal off-axis tone coloration, a 3-stage pop filter to minimize breath noise, and a break-resistant stand adapter.
                                 </p>
                             </div>
@@ -918,26 +936,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox condenser">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/KSM137.png">
+            <article class="product-card" data-category="condenser">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/KSM137.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/KSM137.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     KSM137
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Cardioid Instrument Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Cardioid instrument microphone delivers excellent sound isolation and superior transient response. It features a gold-layered Mylar diaphragm, preamplifier for transparency, subsonic filter to stop low frequency rumble, and a pad for handling SPLs.
                                 </p>
                             </div>
@@ -945,26 +963,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox condenser">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/KSM141.png">
+            <article class="product-card" data-category="condenser">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/KSM141.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/KSM141.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     KSM141
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Dual Pattern Instrument Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Dual pattern instrument microphone offers transition between cardioid and omnidirectional patterns and features extended frequency response, pad for handling SPLs, a gold-layered Mylar diaphragm, and a subsonic filter for low frequency rumble.
                                 </p>
                             </div>
@@ -972,26 +990,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox condenser">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/KSM32CG.png">
+            <article class="product-card" data-category="condenser">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/KSM32CG.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/KSM32CG.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     KSM32
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Cardioid Condenser Microphone (Charcoal)
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Cardioid condenser microphone delivers a smooth, neutral sound reproduction with full character and consists of a microphone, a padded, zippered carrying bag, and a swivel mount.
                                 </p>
                             </div>
@@ -999,26 +1017,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox condenser">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/KSM32C.png">
+            <article class="product-card" data-category="condenser">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/KSM32C.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/KSM32C.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     KSM32
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Cardioid Condenser Microphone (Champagne)
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Cardioid condenser microphone delivers a smooth, neutral sound reproduction with full character and consists of a microphone, a padded, zippered carrying bag, and a swivel mount.
                                 </p>
                             </div>
@@ -1026,26 +1044,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox condenser">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/KSM44A.png">
+            <article class="product-card" data-category="condenser">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/KSM44A.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/KSM44A.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     KSM44A
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Large Diaphragm Multi-Pattern Condenser Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Multi-pattern condenser offers great recording flexibility due to its compatibility with multiple polar pattern condensers. It features dual gold Mylar diaphragms for superior transient response, a subsonic filter, and preamplifier for transparency.
                                 </p>
                             </div>
@@ -1053,26 +1071,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox condenser">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SM81.png">
+            <article class="product-card" data-category="condenser">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SM81.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SM81.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SM81
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Condenser Instrument Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Cardioid condenser instrument microphone offers a wide frequency response and low self-noise. Features include flat response curve, low noise and high output clipping level, low distortion over a range of load impedances, and low RF susceptibility.
                                 </p>
                             </div>
@@ -1080,26 +1098,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox condenser">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/VP88.png">
+            <article class="product-card" data-category="condenser">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/VP88.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/VP88.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     VP88
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Stereo Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Condenser stereo microphone combines 2 condenser cartridges to create a stereo audio image of the sound source. It includes a windscreen, swivel adapter, and Y-cable, switch-selectable, low-frequency roll off, internal shock mount, and a pop screen.
                                 </p>
                             </div>
@@ -1107,26 +1125,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox condenser">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/WB98HC.png">
+            <article class="product-card" data-category="condenser">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/WB98HC.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/WB98HC.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     WB98H/C
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Instrument Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Instrument microphone provides high gain-before-feedback and rejection of unwanted noise. It features preamplifier circuitry for linearity across frequency range, tailored frequency response for studio quality, and a wide dynamic range for high-SPL.
                                 </p>
                             </div>
@@ -1136,26 +1154,26 @@
             </article>
             <!-- Condenser End -->
             <!-- Ribbon Start -->
-            <article class="ProductCard col-md-4 itemBox ribbon">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/KSM313NE.png">
+            <article class="product-card" data-category="ribbon">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/KSM313NE.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/KSM313NE.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     KSM313/NE
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Dual-Voice Ribbon Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Dual-voice ribbon microphone features a bi-directional pattern for premier audio, superior off-axis rejection, and a highly durable ribbon element for increased resilience at extreme SPLs.
                                 </p>
                             </div>
@@ -1165,26 +1183,26 @@
             </article>
             <!-- Ribbon End -->
             <!-- Lavalier Start -->
-            <article class="ProductCard col-md-4 itemBox lavalier">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/MX183.png">
+            <article class="product-card" data-category="lavalier">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/MX183.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/MX183.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     WL183
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Omnidirectional TQG Lavalier Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Omnidirectional lavalier microphone offers an interchangeable condenser cartridge and consists of a windscreen and a dual tie clip for 2 microphones. It features wide dynamic range and frequency response for accurate and balanced sound reproduction.
                                 </p>
                             </div>
@@ -1192,26 +1210,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox lavalier">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/MX184.png">
+            <article class="product-card" data-category="lavalier">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/MX184.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/MX184.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     WL184
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Supercardidioid TQG Lavalier Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     The MX184 premium supercardioid lavalier microphone brings a new level of sophistication to personal voice reproduction. Like all Microflex family microphones, this lavalier uses an interchangeable condenser cartridge, meaning there will always be a lavalier to suit your application.
                                 </p>
                             </div>
@@ -1219,26 +1237,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox lavalier">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/MX185.png">
+            <article class="product-card" data-category="lavalier">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/MX185.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/MX185.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     WL185
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Cardioid TQG Lavalier Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Cardioid lavalier microphone offers an interchangeable condenser and consists of a windscreen and a dual tie clip for 2 microphones. It features wide dynamic range and frequency response for accurate and balanced sound reproduction.
                                 </p>
                             </div>
@@ -1248,27 +1266,27 @@
             </article>
             <!-- Lavalier End -->
             <!-- Gooseneck Start -->
-            <article class="ProductCard col-md-4 itemBox gooseneck">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/MX418C.png">
+            <article class="product-card" data-category="gooseneck">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/MX418C.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/MX418C.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     MX418/C
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
-                                    Microflex® Gooseneck Microphone
-                                </h6>
+                                </h3>
+                                <p class="product-subtitle">
+                                    MicroflexÃ‚Â® Gooseneck Microphone
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
-                                    The right speech doesn’t just inform. It can excite and even transform those who hear it. So, we designed the MX418 to treat spoken audio with the detail and respect it deserves. Because clarity commands attention.
+                                <p class="product-description">
+                                    The right speech doesnÃ¢â‚¬â„¢t just inform. It can excite and even transform those who hear it. So, we designed the MX418 to treat spoken audio with the detail and respect it deserves. Because clarity commands attention.
                                 </p>
                             </div>
                         </div>
@@ -1277,26 +1295,26 @@
             </article>
             <!-- Gooseneck End -->
             <!-- Headset Start -->
-            <article class="ProductCard col-md-4 itemBox headset">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SM31FH.png">
+            <article class="product-card" data-category="headset">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SM31FH.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SM31FH.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SM31FH
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Fitness Headset Condenser Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Cardioid fitness headset condenser microphone offers a moisture-repelling hydrophobic construction for use in fitness training, Features include windscreen and compatibility with Shure bodypack systems for replacement of TA4F-connected microphones.
                                 </p>
                             </div>
@@ -1304,26 +1322,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox headset">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SM35.png">
+            <article class="product-card" data-category="headset">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SM35.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SM35.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SM35
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Performance headset condenser microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     The SM35 Performance Headset Condenser Microphone gives multi-instrumentalists the freedom to express themselves without sacrificing sound quality. A tight, unidirectional cardioid polar pattern provides excellent rejection of off-axis sound sources to prevent feedback and signal bleed onstage, whether in use in small clubs, large installations, or arena tours.
                                 </p>
                             </div>
@@ -1331,53 +1349,53 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox headset">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/WBH53T.png">
+            <article class="product-card" data-category="headset">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/WBH53T.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/WBH53T.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     WBH53
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Headworn Vocal Microphone Tan
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
-                                    Headworn vocal microphone for detailed, uncolored sound in an ultra-thin and fully adjustable design. Features comfortable behind-the-ear Dynaflex® earforms, a discreet, detachable microphone boom mount and interchangeable frequency response caps.
+                                <p class="product-description">
+                                    Headworn vocal microphone for detailed, uncolored sound in an ultra-thin and fully adjustable design. Features comfortable behind-the-ear DynaflexÃ‚Â® earforms, a discreet, detachable microphone boom mount and interchangeable frequency response caps.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox headset">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/WH20.png">
+            <article class="product-card" data-category="headset">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/WH20.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/WH20.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     WH20
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Dynamic Headset Microphone
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     The Shure WH20 is a rugged, lightweight, dynamic headset microphone that provides high-quality voice pickup. It fits securely for active microphone users, such as aerobics instructors and musicians, with low visibility for stage appearances.
                                 </p>
                             </div>
@@ -1387,26 +1405,26 @@
             </article>
             <!-- Headset End -->
             <!-- Wireless Start -->
-            <article class="ProductCard col-md-4 itemBox wireless">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/AD4Q.png">
+            <article class="product-card" data-category="wireless">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/AD4Q.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/AD4Q.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     AD4Q
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Four-Channel Digital Wireless Receiver
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Compatible with all AD series and ADX series transmitters.
                                 </p>
                             </div>
@@ -1414,26 +1432,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox wireless">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/AD4D.png">
+            <article class="product-card" data-category="wireless">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/AD4D.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/AD4D.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     AD4D
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Two-Channel Digital Wireless Receiver
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Compatible with all AD series and ADX series transmitters.
                                 </p>
                             </div>
@@ -1441,26 +1459,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox wireless">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/Shure-ULXD4Q.png">
+            <article class="product-card" data-category="wireless">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/Shure-ULXD4Q.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/Shure-ULXD4Q.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     ULXD4Q
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Quad-Channel Digital Wireless Receiver
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Digital quad wireless receiver offers an intelligent four-channel option for use in any professional sound reinforcement application. Features include Digital Predictive Switching Diversity, 64 MHz tuning range, and AES 256 encryption for security.
                                 </p>
                             </div>
@@ -1468,26 +1486,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox wireless">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/AD1.png">
+            <article class="product-card" data-category="wireless">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/AD1.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/AD1.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     AD1
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Bodypack Transmitter
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     AD1 delivers impeccable audio quality and RF performance with wide-tuning, High Density mode, and encryption. Features durable metal construction, optional rechargeable power with dockable charging, and TA4 and LEMO3 connector options.
                                 </p>
                             </div>
@@ -1495,26 +1513,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox wireless">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/ADX1.png">
+            <article class="product-card" data-category="wireless">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/ADX1.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/ADX1.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     ADX1
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Bodypack Transmitter
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     ADX1, like all ADX transmitters, sets the stage for exceptional performance, with wide tuning up to 184 MHz, interference protection, advanced rechargeability, streamlined design, and ShowLink remote control for real-time parameter adjustments right from the booth. Includes two SB910 rechargeable batteries.
                                 </p>
                             </div>
@@ -1522,26 +1540,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox wireless">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/AD2v2.png">
+            <article class="product-card" data-category="wireless">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/AD2v2.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/AD2v2.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     AD2
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Handheld Wireless Microphone Transmitter
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     AD2 delivers impeccable audio quality and RF performance with wide-tuning, High Density mode, and encryption. Features durable metal construction, rechargeable power with dockable charging, and black or nickel finish options.
                                 </p>
                             </div>
@@ -1549,26 +1567,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox wireless">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/ADX2v2.png">
+            <article class="product-card" data-category="wireless">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/ADX2v2.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/ADX2v2.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     ADX2
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Handheld Wireless Microphone Transmitter
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     ADX2, like all ADX transmitters, sets the stage for exceptional performance, with wide tuning up to 184 MHz, interference protection, advanced rechargeability, streamlined design, and ShowLink remote control for real-time parameter adjustments right from the booth.
                                 </p>
                             </div>
@@ -1576,26 +1594,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox wireless">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/Shure-ADX2FD.png">
+            <article class="product-card" data-category="wireless">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/Shure-ADX2FD.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/Shure-ADX2FD.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     ADX2FD
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Handheld Wireless Microphone Transmitter
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     ADX2FD, like all ADX transmitters, sets the stage for exceptional performance, with wide tuning up to 184 MHz, interference protection, advanced rechargeability, streamlined design, and ShowLink remote control for real-time parameter adjustments right from the booth.
                                 </p>
                             </div>
@@ -1603,26 +1621,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox wireless">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SLXD4D.png">
+            <article class="product-card" data-category="wireless">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SLXD4D.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SLXD4D.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SLXD4D
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Dual Channel Receiver
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     The SLXD4D Dual Receiver is the convenient, streamlining choice for confident speech presentation and vocal performance from lecture halls to live entertainment.
                                 </p>
                             </div>
@@ -1630,26 +1648,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox wireless">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SLXD1.png">
+            <article class="product-card" data-category="wireless">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SLXD1.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SLXD1.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SLXD1
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Bodypack Transmitter
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     The SLXD1 easily syncs with a wireless receiver for confident presentation and performance - from lecture halls to live entertainment.      
                                 </p>
                             </div>
@@ -1659,53 +1677,53 @@
             </article>
             <!-- Wireless End -->
             <!-- Accessories Start -->
-            <article class="ProductCard col-md-4 itemBox accessories">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/AD610.png">
+            <article class="product-card" data-category="accessories">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/AD610.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/AD610.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     AXT610
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     AXT610 ShowLink Access Point
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
-                                    The AXT610 ShowLink™ access point enables real-time remote control of the Axient™ transmitters. The access point allows comprehensive management of transmitter parameters from the receiver or Wireless Workbench® 6 using 2.4 GHz wireless network communication. All parameter changes occur without interruption to the performer.
+                                <p class="product-description">
+                                    The AXT610 ShowLinkÃ¢â€žÂ¢ access point enables real-time remote control of the AxientÃ¢â€žÂ¢ transmitters. The access point allows comprehensive management of transmitter parameters from the receiver or Wireless WorkbenchÃ‚Â® 6 using 2.4 GHz wireless network communication. All parameter changes occur without interruption to the performer.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox accessories">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/AXT600.png">
+            <article class="product-card" data-category="accessories">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/AXT600.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/AXT600.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     AXT600
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Axient Spectrum Manager
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Axient Spectrum Manager delivers wide-band UHF spectrum scanning, spectrum analysis, and compatible frequency coordination in a single rack unit.
                                 </p>
                             </div>
@@ -1713,53 +1731,53 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox accessories">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/Shure-ADC600.png">
+            <article class="product-card" data-category="accessories">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/Shure-ADC600.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/Shure-ADC600.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     AD600
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
-                                    Axient® Digital Spectrum Manager
-                                </h6>
+                                </h3>
+                                <p class="product-subtitle">
+                                    AxientÃ‚Â® Digital Spectrum Manager
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
-                                    Shure Axient® Digital AD600 Digital Spectrum Manager delivers real-time, wide-band spectrum scanning and monitoring from 174 MHz to 2.0 GHz, spectrum analysis, and frequency coordination in a single rack unit. Six antenna connections deliver multiple coverage options while Dante connectivity provides advanced audio monitoring of your network. Use the USB port to export, import, or save backup scans, event logs, and other important data.
+                                <p class="product-description">
+                                    Shure AxientÃ‚Â® Digital AD600 Digital Spectrum Manager delivers real-time, wide-band spectrum scanning and monitoring from 174 MHz to 2.0 GHz, spectrum analysis, and frequency coordination in a single rack unit. Six antenna connections deliver multiple coverage options while Dante connectivity provides advanced audio monitoring of your network. Use the USB port to export, import, or save backup scans, event logs, and other important data.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox accessories">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SB900A.png">
+            <article class="product-card" data-category="accessories">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SB900A.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SB900A.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SB900A
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Rechargeable Lithium-Ion Battery
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Rechargeable lithium-ion battery makes powering Shure wireless systems easy. Features include compatibility with Axient Digital (AD1/AD2), ULX-D, QLX-D, UR5, P3RA, P9R, and P10R systems.
                                 </p>
                             </div>
@@ -1767,26 +1785,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox accessories">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SB910.png">
+            <article class="product-card" data-category="accessories">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SB910.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SB910.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SB910
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Lithium-Ion Rechargeable Battery
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     ADX1 bodypack transmitters exclusively use SB910 lithium-ion rechargeable batteries
                                 </p>
                             </div>
@@ -1794,26 +1812,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox accessories">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SB920.png">
+            <article class="product-card" data-category="accessories">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SB920.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SB920.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SB920
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Lithium-Ion Rechargeable Battery
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     ADX2, ADX2FD handheld transmitters exclusively use SB920 lithium-ion rechargeable batteries.
                                 </p>
                             </div>
@@ -1821,26 +1839,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox accessories">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SBC-AX.png">
+            <article class="product-card" data-category="accessories">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SBC-AX.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SBC-AX.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SBC-AX
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Charging module
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Charging module charges 2 SB900A Rechargeable Batteries in the SBRC Rack Mount Charging Station.
                                 </p>
                             </div>
@@ -1848,26 +1866,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox accessories">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SBRC.png">
+            <article class="product-card" data-category="accessories">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SBRC.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SBRC.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SBRC
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Shure Battery Rack Charger
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Accommodates up to 8 Shure rechargeable bodypack and handheld transmitter batteries in a single rack space. Compatible with Shure rechargeable batteries SB910, SB920, SB910M, AXT910, AXT920 and SB900A. Charging modules sold separately.
                                 </p>
                             </div>
@@ -1875,26 +1893,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox accessories">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SBC220.png">
+            <article class="product-card" data-category="accessories">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SBC220.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SBC220.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SBC220
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     2-Bay Networked Docking Charger
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     The SBC220 2-Bay Networked Charging Station enables docked charging and storage for any combination of two SB900A batteries or ULXD1, QLXD1, AD1 (bodypack) or ULXD2, QLXD2 or AD2 (handheld) wireless transmitters. When the connected to a network, the charging status of each transmitter can be viewed remotely, and up to four SBC220 units can be linked together using shared power and network connectivity.
                                 </p>
                             </div>
@@ -1902,26 +1920,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox accessories">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SBC800.png">
+            <article class="product-card" data-category="accessories">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SBC800.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SBC800.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SBC800
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     8-Up Battery Charger
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     8-battery charger charges 8 SB900A batteries to full capacity within 3 hours. Features include status LEDs to indicate power levels.
                                 </p>
                             </div>
@@ -1929,26 +1947,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox accessories">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SBM910.png">
+            <article class="product-card" data-category="accessories">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SBM910.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SBM910.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SBM910
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Charging Module
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Charging Module for SB910 Batteries
                                 </p>
                             </div>
@@ -1956,26 +1974,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox accessories">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SBM920.png">
+            <article class="product-card" data-category="accessories">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SBM920.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SBM920.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SBM920
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Charging Module
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Charging Module for SB920 Batteries
                                 </p>
                             </div>
@@ -1983,26 +2001,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox accessories">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/UA860SWB.png">
+            <article class="product-card" data-category="accessories">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/UA860SWB.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/UA860SWB.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     UA860SWB
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Omnidirectional Antenna
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     The Shure UA860SWB is a passive wide band UHF omnidirectional antenna. For use with certain Shure wireless products.
                                 </p>
                             </div>
@@ -2010,26 +2028,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox accessories">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/AXT630.png">
+            <article class="product-card" data-category="accessories">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/AXT630.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/AXT630.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     AXT630
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Axient Antenna Distribution System
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Axient antenna distribution system delivers ultra-linear amplification and precision filtering for optimal performance. Features include wideband filtering and up to 15 dB of selectable RF attenuation for signal-to-noise optimization.
                                 </p>
                             </div>
@@ -2037,26 +2055,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox accessories">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/UA874.png">
+            <article class="product-card" data-category="accessories">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/UA874.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/UA874.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     UA874
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Active Directional Antenna
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     FThe UA874 series of antennas delivers improved wireless signal reception for VHF and UHF wireless systems. Features include rejection of RF signals outside the coverage area and an integrated amplifier with four gain settings.
                                 </p>
                             </div>
@@ -2064,26 +2082,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox accessories">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/WA310.png">
+            <article class="product-card" data-category="accessories">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/WA310.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/WA310.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     WA310
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Microphone Cable
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Cable, Microphone, 4-foot (1.3m), 4-pin Mini Connector (TA4F) to XLR Connector (F), used with Shure Body-Pack Transmitters.
                                 </p>
                             </div>
@@ -2091,26 +2109,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox accessories">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/WA451.png">
+            <article class="product-card" data-category="accessories">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/WA451.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/WA451.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     WA451
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     TA3F-to-XLR audio cable
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     1-foot audio cable connects a TA3F connector to an XLR connector.
                                 </p>
                             </div>
@@ -2118,26 +2136,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox accessories">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/UABiast-US.png">
+            <article class="product-card" data-category="accessories">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/UABiast-US.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/UABiast-US.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     UABiast-US
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     In-Line Power Adapter
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     In-line adapter that supplies 12V DC bias power over coaxial cable, US Power Supply.
                                 </p>
                             </div>
@@ -2147,53 +2165,53 @@
             </article>
             <!-- Accessories End -->
             <!-- Earphone Start -->
-            <article class="ProductCard col-md-4 itemBox earphone">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SE215.png">
+            <article class="product-card" data-category="earphone">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SE215.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SE215.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SE215CL
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
-                                    Sound Isolating™ Earphones
-                                </h6>
+                                </h3>
+                                <p class="product-subtitle">
+                                    Sound IsolatingÃ¢â€žÂ¢ Earphones
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
-                                    The place you’d rather be is right here. Get immersive sound that turns your commute into a concert and your workout into the discovery of new musical dimensions. Available in 4 colors in both wired and wireless options, the SE215 is off-the-shelf audio that’s better listening, period.
+                                <p class="product-description">
+                                    The place youÃ¢â‚¬â„¢d rather be is right here. Get immersive sound that turns your commute into a concert and your workout into the discovery of new musical dimensions. Available in 4 colors in both wired and wireless options, the SE215 is off-the-shelf audio thatÃ¢â‚¬â„¢s better listening, period.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox earphone">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SE425.png">
+            <article class="product-card" data-category="earphone">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SE425.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SE425.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SE425
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
-                                    Sound Isolating™ Earphones
-                                </h6>
+                                </h3>
+                                <p class="product-subtitle">
+                                    Sound IsolatingÃ¢â€žÂ¢ Earphones
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Available in a striking silver color, the SE425 allows you to hear your music the way it was meant to be heard - the way your favorite artists intended. This is what true-to-life sounds like, when accuracy is important and range is imperative. Welcome to the big time.
                                 </p>
                             </div>
@@ -2201,26 +2219,26 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox earphone">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SE535.png">
+            <article class="product-card" data-category="earphone">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SE535.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SE535.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SE535
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
-                                    Sound Isolating™ Earphones
-                                </h6>
+                                </h3>
+                                <p class="product-subtitle">
+                                    Sound IsolatingÃ¢â€žÂ¢ Earphones
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     Available in bronze, the SE535 delivers spacious, surround sound with a striking separation of highs and lows straight to your brain. Precise clarity with a driving beat will have you checking your pulse.
                                 </p>
                             </div>
@@ -2228,53 +2246,53 @@
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox earphone">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/SE846.png">
+            <article class="product-card" data-category="earphone">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/SE846.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/SE846.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SE846
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
-                                    Sound Isolating™ Earphones
-                                </h6>
+                                </h3>
+                                <p class="product-subtitle">
+                                    Sound IsolatingÃ¢â€žÂ¢ Earphones
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
-                                    State-of-the-art, unparalleled audio is delivered through four custom-engineered drivers – each tailored to blend precisely with the others. Customizable sound signatures for balanced, warm and bright audio is enlightened listening at its finest. Pure bliss for the refined ear, available in four striking color options.
+                                <p class="product-description">
+                                    State-of-the-art, unparalleled audio is delivered through four custom-engineered drivers Ã¢â‚¬â€œ each tailored to blend precisely with the others. Customizable sound signatures for balanced, warm and bright audio is enlightened listening at its finest. Pure bliss for the refined ear, available in four striking color options.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </article>
-            <article class="ProductCard col-md-4 itemBox earphone">
-                <div class="ProductCard-Container">
-                    <a class="Product-Image-Wrapper" href="../img/mic-img/srh440.png">
+            <article class="product-card" data-category="earphone">
+                <div class="product-card-inner">
+                    <a class="product-image-wrapper" href="../img/mic-img/srh440.png">
                         <div class="ProductCard-Image">
                             <img src="../img/mic-img/srh440.png" alt="Shure">
                         </div>
                     </a>
                     <div class="Product-Flags"></div>
-                    <div class="ProductCard-ContentWrapper">
+                    <div class="product-copy">
                         <div class="ProductCard-Text">
-                            <a href="" class="link-clean">
-                                <h4 class="ProductTitle bold">
+                            <a href="../contact.html" class="link-clean">
+                                <h3>
                                     SRH440
-                                </h4>
-                                <h6 class="ProductDetailedTitle light">
+                                </h3>
+                                <p class="product-subtitle">
                                     Professional Studio Headphones
-                                </h6>
+                                </p>
                             </a>
                             <div>
-                                <p class="ProductDescription small">
+                                <p class="product-description">
                                     The SRH440 Professional Studio Headphones deliver enhanced frequency response with accurate audio across an extended range for home and studio recording. Impedance, power handling and sensitivity are all calibrated for professional audio devices such as DJ mixers, mixing consoles, and headphone amplifier. Includes detachable coiled cable, carrying bag and threaded 1/4" (6.3 mm) gold-plated adapter.
                                 </p>
                             </div>
@@ -2290,7 +2308,7 @@
     <!-- Copyright Start -->
     <div class="copyright-container">
         <div class="copyright">
-            <p class="copyright">Copyright © 2020 VD Audio Rental. All rights reserved. Ver 2.16</p>
+            <p class="copyright">Copyright Ã‚Â© 2020 VD Audio Rental. All rights reserved. Ver 2.16</p>
         </div>
     </div>
     <!-- Copyright End -->
