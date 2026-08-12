@@ -129,6 +129,34 @@
     margin: 0;
 }
 
+.coming-soon-notice {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 32px;
+    background: #fff;
+    border: 1px solid rgba(34, 93, 56, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.coming-soon-notice i {
+    font-size: 28px;
+    color: #2a7444;
+    flex-shrink: 0;
+}
+
+.coming-soon-notice p {
+    margin: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.coming-soon-notice a {
+    color: #225D38;
+    font-weight: 700;
+}
+
 .filter-toolbar {
     display: flex;
     flex-wrap: wrap;
