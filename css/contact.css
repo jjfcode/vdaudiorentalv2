@@ -148,6 +148,34 @@
     gap: 18px;
 }
 
+.hp-field {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+.form-status {
+    padding: 16px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.form-status.success {
+    background: rgba(34, 93, 56, 0.1);
+    color: #225D38;
+    border: 1px solid rgba(34, 93, 56, 0.25);
+}
+
+.form-status.error {
+    background: rgba(178, 34, 34, 0.08);
+    color: #b22222;
+    border: 1px solid rgba(178, 34, 34, 0.25);
+}
+
 .form-row {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
