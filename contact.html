@@ -143,6 +143,7 @@
                             <label for="inquiry-type">Inquiry Type</label>
                             <select id="inquiry-type" name="inquiry-type">
                                 <option value="rental-request">Rental Request</option>
+                                <option value="used-equipment">Used Equipment / Sales</option>
                                 <option value="general-information">General Information</option>
                                 <option value="billing">Billing</option>
                             </select>
@@ -232,6 +233,13 @@
             }
 
             var params = new URLSearchParams(window.location.search);
+
+            var inquiryField = document.getElementById("inquiry-type");
+            var inquiry = params.get("inquiry");
+            if (inquiryField && inquiry) {
+                inquiryField.value = inquiry;
+            }
+
             var sent = params.get("sent");
             if (sent === null) return;
 

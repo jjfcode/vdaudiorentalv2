@@ -2,7 +2,8 @@
 // Sends the "Request a Quote" form on contact.html to the address below via PHP mail().
 // Requires the hosting plan to support PHP and have mail() enabled/configured.
 
-$to = "info@vdaudiorentals.com";
+$toGeneral = "info@vdaudiorentals.com";
+$toSales = "sales@vdaudiorentals.com";
 $siteName = "VD Audio Rental";
 $allowedHost = "vdaudiorentals.com";
 $redirectOk = "contact.html?sent=1#contact-form";
@@ -102,6 +103,8 @@ $details = trim($_POST["details"] ?? "");
 if ($name === "" || $email === "" || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
     reject($redirectError);
 }
+
+$to = ($inquiryType === "used-equipment") ? $toSales : $toGeneral;
 
 $subject = "New quote request from " . $name . ($company !== "" ? " (" . $company . ")" : "");
 
