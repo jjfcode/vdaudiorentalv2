@@ -2,9 +2,9 @@
 // Sends the "Request a Quote" form on contact.html to the address below via PHP mail().
 // Requires the hosting plan to support PHP and have mail() enabled/configured.
 
-$to = "info@vdaudiorental.com";
+$to = "info@vdaudiorentals.com";
 $siteName = "VD Audio Rental";
-$allowedHost = "vdaudiorental.com";
+$allowedHost = "vdaudiorentals.com";
 $redirectOk = "contact.html?sent=1#contact-form";
 $redirectError = "contact.html?sent=0#contact-form";
 $redirectThrottled = "contact.html?sent=throttled#contact-form";
@@ -119,7 +119,7 @@ $bodyLines = [
 ];
 $body = implode("\n", $bodyLines);
 
-$headers = "From: " . $siteName . " Website <no-reply@vdaudiorental.com>\r\n";
+$headers = "From: " . $siteName . " Website <no-reply@vdaudiorentals.com>\r\n";
 $headers .= "Reply-To: " . $email . "\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
