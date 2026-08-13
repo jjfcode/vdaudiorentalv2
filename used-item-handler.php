@@ -17,12 +17,14 @@ function clean_field($value) {
 }
 
 function safe_return_path($value) {
-    // Only allow a plain relative filename like "bss-fcs-960.html" — no
-    // absolute URLs, no "..", no query strings — so this can't be abused
-    // as an open redirect.
+    // Only allow a plain relative path inside used/, like
+    // "used/bss-fcs-960.html" — no absolute URLs, no "..", no query
+    // strings — so this can't be abused as an open redirect. This script
+    // lives at the site root, so the redirect path must include the
+    // "used/" folder to land back on the right product page.
     $value = clean_field($value);
-    if ($value === "" || !preg_match('/^[a-zA-Z0-9\-_]+\.html$/', $value)) {
-        return "../used-equipment.html";
+    if ($value === "" || !preg_match('/^used\/[a-zA-Z0-9\-_]+\.html$/', $value)) {
+        return "used-equipment.html";
     }
     return $value;
 }
