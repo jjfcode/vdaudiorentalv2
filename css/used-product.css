@@ -203,6 +203,138 @@
     outline-offset: 3px;
 }
 
+/* Ask About This Item - modal */
+.item-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(17, 17, 17, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.item-modal-overlay[hidden] {
+    display: none;
+}
+
+.item-modal {
+    position: relative;
+    width: 100%;
+    max-width: 480px;
+    max-height: 90vh;
+    overflow-y: auto;
+    background: #fff;
+    border-radius: 18px;
+    padding: 32px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+.item-modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    background: #f4f4f4;
+    color: #333;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+}
+
+.item-modal-close:hover,
+.item-modal-close:focus-visible {
+    background: #e4e4e4;
+}
+
+.item-modal h2 {
+    margin: 0 0 6px;
+    font-size: 24px;
+    color: #111;
+}
+
+.item-modal .item-modal-subtitle {
+    margin: 0 0 22px;
+    font-size: 14px;
+    color: #666;
+}
+
+.item-modal .item-modal-subtitle strong {
+    color: #225D38;
+}
+
+.item-inquiry-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.item-inquiry-form .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.item-inquiry-form label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #225D38;
+}
+
+.item-inquiry-form input,
+.item-inquiry-form textarea {
+    padding: 12px 14px;
+    border: 1px solid rgba(34, 93, 56, 0.2);
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 15px;
+    color: #111;
+}
+
+.item-inquiry-form input:focus,
+.item-inquiry-form textarea:focus {
+    outline: none;
+    border-color: #225D38;
+    box-shadow: 0 0 0 3px rgba(34, 93, 56, 0.12);
+}
+
+.item-inquiry-form .hp-field {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+.item-modal-status {
+    padding: 14px 16px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.item-modal-status.success {
+    background: rgba(34, 93, 56, 0.1);
+    color: #225D38;
+    border: 1px solid rgba(34, 93, 56, 0.25);
+}
+
+.item-modal-status.error {
+    background: rgba(178, 34, 34, 0.08);
+    color: #b22222;
+    border: 1px solid rgba(178, 34, 34, 0.25);
+}
+
 @media (max-width: 920px) {
     .used-product-page {
         padding: 48px 6% 64px;

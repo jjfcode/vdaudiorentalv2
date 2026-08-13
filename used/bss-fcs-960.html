@@ -114,7 +114,7 @@
                         </div>
 
                         <div class="used-product-actions">
-                            <a href="../contact.html" class="btn btn-primary">Ask About This Item</a>
+                            <button type="button" class="btn btn-primary" data-open-item-modal id="ask-about-item">Ask About This Item</button>
                             <a href="../used-equipment.html" class="btn btn-secondary">Back to Listings</a>
                         </div>
 
@@ -164,6 +164,50 @@
             </div>
         </section>
     </main>
+
+    <div class="item-modal-overlay" id="item-modal-overlay" hidden>
+        <div class="item-modal" role="dialog" aria-modal="true" aria-labelledby="item-modal-heading">
+            <button type="button" class="item-modal-close" aria-label="Close">&times;</button>
+
+            <h2 id="item-modal-heading">Ask About This Item</h2>
+            <p class="item-modal-subtitle">Inquiring about: <strong>BSS FCS-960 Dual Mode Equalizer</strong></p>
+
+            <div class="item-modal-status" hidden></div>
+
+            <form class="item-inquiry-form" action="../used-item-handler.php" method="post">
+                <input type="hidden" id="item-loaded-at" name="loaded_at" value="">
+                <input type="hidden" name="item" value="BSS FCS-960 Dual Mode Equalizer">
+                <input type="hidden" name="return_to" value="bss-fcs-960.html">
+
+                <div class="form-group hp-field" aria-hidden="true">
+                    <label for="item-website">Leave this field blank</label>
+                    <input type="text" id="item-website" name="website" tabindex="-1" autocomplete="off">
+                </div>
+
+                <div class="form-group">
+                    <label for="item-name">Your Name</label>
+                    <input type="text" id="item-name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="item-email">Email</label>
+                    <input type="email" id="item-email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="item-phone">Phone</label>
+                    <input type="tel" id="item-phone" name="phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="item-message">Message</label>
+                    <textarea id="item-message" name="message" rows="4" placeholder="Any questions about condition, shipping, or pricing?"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Send Inquiry</button>
+            </form>
+        </div>
+    </div>
 
     <footer class="site-footer">
         <div class="site-footer-inner">
